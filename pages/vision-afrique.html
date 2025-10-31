@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+  <script src="../js/theme.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stratégie d'Avenir - Alliance Synergie Santé</title>
+    <meta name="description" content="Notre vision stratégique pour une santé durable en Afrique">
+    
+  <link rel="stylesheet" href="../css/vision-afrique.css">
+  <script src="../js/vision-afrique.js" defer></script>
+</head>
+<body>
+
+    <!-- ====== Barre de navigation (HTML + CSS + JS) ====== -->
+    
+
+    <nav class="nav">
+      <div class="nav__bar">
+        <a href="../accueil.html" class="brand">
+          <div class="brand__logo-wrap">
+            <img src="../pages/logo principal.png" alt="" class="brand__logo">
+          </div>
+          <span class="brand__name">ALLIANCE SYNERGIE SANTÉ</span>
+        </a>
+
+        <ul class="nav__menu">
+          <li class="nav__item">
+            <button class="nav__btn" aria-expanded="false">
+              <span>Entreprise</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="dropdown">
+              <a href="../pages/mot-president.html">
+                <span class="dropdown-icon">👤</span>
+                <div class="dropdown-content">
+                  <div class="dropdown-title">Mot du président</div>
+                  <div class="dropdown-desc">Notre vision et engagement</div>
+                </div>
+              </a>
+              <a href="../pages/historique.html">
+                <span class="dropdown-icon">🕘</span>
+                <div class="dropdown-content">
+                  <div class="dropdown-title">Historique</div>
+                  <div class="dropdown-desc">Notre parcours</div>
+                </div>
+              </a>
+              <a href="../pages/organigramme.html">
+                <span class="dropdown-icon">🗂️</span>
+                <div class="dropdown-content">
+                  <div class="dropdown-title">Organigramme</div>
+                  <div class="dropdown-desc">Structure organisationnelle</div>
+                </div>
+              </a>
+              <a href="../pages/chaine-de-valeurs.html">
+                <span class="dropdown-icon">🔗</span>
+                <div class="dropdown-content">
+                  <div class="dropdown-title">Chaîne de valeurs</div>
+                  <div class="dropdown-desc">Notre écosystème</div>
+                </div>
+              </a>
+            </div>
+          </li>
+
+          <li class="nav__item">
+            <button class="nav__btn" aria-expanded="false">
+              <span>Stratégie</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="dropdown">
+              <a href="../pages/vision-afrique.html">
+                <span class="dropdown-icon">🌍</span>
+                <div class="dropdown-content">
+                  <div class="dropdown-title">Vision pour l'Afrique</div>
+                  <div class="dropdown-desc">Notre stratégie</div>
+                </div>
+              </a>
+            </div>
+          </li>
+
+          <li class="nav__item">
+            <button class="nav__btn" aria-expanded="false">
+              <span>Gammes</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="dropdown">
+              <a href="../pages/marque-propre-A2S.html">
+                <span class="dropdown-icon">⭐</span>
+                <div class="dropdown-content">
+                  <div class="dropdown-title">Marque propre A2S</div>
+                  <div class="dropdown-desc">Nos créations</div>
+                </div>
+              </a>
+              <a href="../pages/marque-partenaire.html">
+                <span class="dropdown-icon">🤝</span>
+                <div class="dropdown-content">
+                  <div class="dropdown-title">Marques partenaires</div>
+                  <div class="dropdown-desc">Nos partenaires</div>
+                </div>
+              </a>
+            </div>
+          </li>
+
+          <!-- NOUVEAU : Partenariats (avant Médias) -->
+          <li class="nav__item">
+            <button class="nav__btn" aria-expanded="false">
+              <span>Partenariats</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="dropdown">
+              <a href="../pages/ambassadeur.html">
+                <span class="dropdown-icon">🏅</span>
+                <div class="dropdown-content">
+                  <div class="dropdown-title">Ambassadeur</div>
+                  <div class="dropdown-desc">Rejoindre le programme</div>
+                </div>
+              </a>
+              <a href="../pages/espace-pro.html">
+                <span class="dropdown-icon">🧩</span>
+                <div class="dropdown-content">
+                  <div class="dropdown-title">Espace Pro</div>
+                  <div class="dropdown-desc">Ressources partenaires</div>
+                </div>
+              </a>
+            </div>
+          </li>
+          <!-- /NOUVEAU -->
+
+          <li class="nav__item">
+            <a href="../pages/mediatheque.html" class="nav__link">Médiathèque</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="../pages/carrieres.html" class="nav__link">Carrières</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="../pages/contact.html" class="nav__link nav__link--cta">Contact</a>
+          </li>
+        </ul>
+
+        <div class="nav__tools">
+          
+          <button id="burger" class="burger" aria-label="Menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Mobile Panel -->
+    <div id="panel" class="panel" hidden>
+      <div>
+        <div class="panel__section" aria-expanded="false">
+          <button class="panel__trigger">
+            <span>Entreprise</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="panel__content">
+            <a href="../pages/mot-president.html"><span class="dropdown-icon">👤</span><div class="dropdown-content"><div class="dropdown-title">Mot du président</div><div class="dropdown-desc">Notre vision et engagement</div></div></a>
+            <a href="../pages/historique.html"><span class="dropdown-icon">🕘</span><div class="dropdown-content"><div class="dropdown-title">Historique</div><div class="dropdown-desc">Notre parcours</div></div></a>
+            <a href="../pages/organigrame.html"><span class="dropdown-icon">🗂️</span><div class="dropdown-content"><div class="dropdown-title">Organigramme</div><div class="dropdown-desc">Structure organisationnelle</div></div></a>
+            <a href="../pages/chaine-de-valeurs.html"><span class="dropdown-icon">🔗</span><div class="dropdown-content"><div class="dropdown-title">Chaîne de valeurs</div><div class="dropdown-desc">Notre écosystème</div></div></a>
+          </div>
+        </div>
+
+        <div class="panel__section" aria-expanded="false">
+          <button class="panel__trigger">
+            <span>Stratégie</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="panel__content">
+            <a href="../pages/vision-afrique.html"><span class="dropdown-icon">🌍</span><div class="dropdown-content"><div class="dropdown-title">Vision pour l'Afrique</div><div class="dropdown-desc">Notre stratégie</div></div></a>
+          </div>
+        </div>
+
+        <div class="panel__section" aria-expanded="false">
+          <button class="panel__trigger">
+            <span>Gammes</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="panel__content">
+            <a href="../pages/marque-propre-A2S.html"><span class="dropdown-icon">⭐</span><div class="dropdown-content"><div class="dropdown-title">Marque propre A2S</div><div class="dropdown-desc">Nos créations</div></div></a>
+            <a href="../pages/marque-partenaire.html"><span class="dropdown-icon">🤝</span><div class="dropdown-content"><div class="dropdown-title">Marques partenaires</div><div class="dropdown-desc">Nos partenaires</div></div></a>
+          </div>
+        </div>
+
+        <!-- NOUVEAU : Section Partenariats AVANT Médias -->
+        <div class="panel__section" aria-expanded="false">
+          <button class="panel__trigger">
+            <span>Partenariats</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="panel__content">
+            <a href="../pages/ambassadeur.html">
+              <span class="dropdown-icon">🏅</span>
+              <div class="dropdown-content">
+                <div class="dropdown-title">Ambassadeur</div>
+                <div class="dropdown-desc">Rejoindre le programme</div>
+              </div>
+            </a>
+            <a href="../pages/espace-pro.html">
+              <span class="dropdown-icon">🧩</span>
+              <div class="dropdown-content">
+                <div class="dropdown-title">Espace Pro</div>
+                <div class="dropdown-desc">Ressources partenaires</div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- /NOUVEAU -->
+
+        <a href="../pages/mediatheque.html" class="panel__section" style="display:flex;align-items:center;padding:14px;text-decoration:none;color:inherit;font-weight:800;">
+          <span>Médiathèque</span>
+        </a>
+
+        <a href="../pages/carrieres.html" class="panel__section" style="display:flex;align-items:center;padding:14px;text-decoration:none;color:inherit;font-weight:800;">
+          <span>Carrières</span>
+        </a>
+
+        <a href="../pages/contact.html" class="panel__section" style="display:flex;align-items:center;padding:14px;text-decoration:none;color:inherit;font-weight:800;background:var(--color-primary);color:white;border-color:var(--color-primary);">
+          <span>Contact</span>
+        </a>
+      </div>
+    </div>
+
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="bg-pattern"></div>
+        <div class="geometric-bg">
+            <div class="geometric-shape shape-1"></div>
+            <div class="geometric-shape shape-2"></div>
+            <div class="geometric-shape shape-3"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">STRATÉGIE D'AVENIR</h1>
+            <h2 class="hero-subtitle">Notre vision stratégique pour une santé durable en Afrique</h2>
+            <p class="hero-description">
+                Inspirés par les orientations éclairées de Sa Majesté le Roi Mohammed VI, nous préparons notre expansion future en Afrique : une stratégie responsable, innovante et durable au service de chaque citoyen africain.
+            </p>
+            <div class="hero-buttons">
+                <a href="#piliers" class="btn btn-primary">Découvrir notre stratégie</a>
+                <a href="#objectifs" class="btn btn-secondary">Objectifs &amp; vision</a>
+                <a href="#faq" class="btn btn-secondary">FAQ</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision Section -->
+    <section class="section">
+        <div class="container">
+            <div class="vision-card scroll-reveal">
+                <h2 class="vision-title">Une vision stratégique pour l'Afrique</h2>
+                <p class="vision-content">
+                    Alliance Synergie Santé prépare son déploiement futur comme acteur de référence dans l'innovation et les solutions de santé intégrées en Afrique. Notre ambition : construire un réseau solide de partenaires, d'institutions et de professionnels unis par une mission : garantir un accès équitable à des soins de qualité pour les générations futures.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pillars Section -->
+    <section id="piliers" class="section">
+        <div class="container">
+            <h2 class="section-title">Les piliers de notre stratégie future</h2>
+            <div class="pillars-grid">
+                <div class="pillar-card scroll-reveal">
+                    <div class="pillar-icon">🎯</div>
+                    <h3 class="pillar-title">Expansion stratégique future</h3>
+                    <p class="pillar-description">
+                        Préparation de notre entrée sur de nouveaux marchés africains via des partenariats durables et une compréhension approfondie des réalités locales.
+                    </p>
+                </div>
+                <div class="pillar-card scroll-reveal">
+                    <div class="pillar-icon">💡</div>
+                    <h3 class="pillar-title">Innovation &amp; digitalisation</h3>
+                    <p class="pillar-description">
+                        Développement de solutions de santé numérique, plateformes et systèmes d'interopérabilité pour des services plus efficaces et inclusifs.
+                    </p>
+                </div>
+                <div class="pillar-card scroll-reveal">
+                    <div class="pillar-icon">⭐</div>
+                    <h3 class="pillar-title">Valeur ajoutée africaine</h3>
+                    <p class="pillar-description">
+                        Adapter notre savoir-faire marocain aux besoins spécifiques de chaque pays pour des solutions accessibles et durables.
+                    </p>
+                </div>
+                <div class="pillar-card scroll-reveal">
+                    <div class="pillar-icon">🤝</div>
+                    <h3 class="pillar-title">Coopération Sud–Sud</h3>
+                    <p class="pillar-description">
+                        Transfert de compétences et collaboration en cohérence avec la vision royale d'un partenariat solide et solidaire entre nations africaines.
+                    </p>
+                </div>
+                <div class="pillar-card scroll-reveal">
+                    <div class="pillar-icon">👥</div>
+                    <h3 class="pillar-title">Développement du capital humain</h3>
+                    <p class="pillar-description">
+                        Programmes de formation et d'autonomisation des talents locaux pour un impact social et économique mesurable à long terme.
+                    </p>
+                </div>
+                <div class="pillar-card scroll-reveal">
+                    <div class="pillar-icon">✓</div>
+                    <h3 class="pillar-title">Excellence &amp; conformité</h3>
+                    <p class="pillar-description">
+                        Alignement sur les standards internationaux (qualité, sécurité, éthique) pour renforcer la confiance et assurer la pérennité.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Royal Vision Section -->
+    <section class="section royal-vision">
+        <div class="container">
+            <div class="royal-content scroll-reveal">
+                <h2 class="royal-title section-title">Vision Royale &amp; Cap stratégique</h2>
+                <div class="royal-grid">
+                    <div class="royal-image-container">
+                        <img src="../images/Roi M6.jpg" 
+                             alt="Sa Majesté le Roi Mohammed VI" 
+                             class="royal-image">
+                        <div class="royal-image-caption">Sa Majesté le Roi Mohammed VI</div>
+                    </div>
+                    <div class="royal-text">
+                        <h3 class="royal-name">صاحب الجلالة الملك محمد السادس</h3>
+                        <p class="royal-date">8 نونبر 2023 – منتدى الاستثمار في إفريقيا (مراكش)</p>
+                        <div class="royal-quote">
+                            <p class="quote-arabic">
+                                إنّ إفريقيا الزاخرة بفرص الاستثمار المواتية للفاعلين الخواص تحتاج اليوم، أكثر من أي وقت مضى، إلى مشاريع جريئة وخلاقة لتشجيع المبادرة الخاصة وتحرير كلّ طاقات القارة وإمكاناتها.
+                            </p>
+                            <p class="quote-attribution">— جلالة الملك محمد السادس نصره الله</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Objectives Section -->
+    <section id="objectifs" class="section objectives-bg">
+        <div class="container">
+            <h2 class="section-title">Objectifs stratégiques &amp; Vision d'impact</h2>
+            <p class="section-subtitle">
+                Des résultats anticipés et des indicateurs de performance guidant notre expansion future responsable.
+            </p>
+            
+            <div class="stats-grid">
+                <div class="stat-card scroll-reveal">
+                    <div class="stat-number" data-target="120">0</div>
+                    <p class="stat-label">établissements partenaires cibles</p>
+                    <h4 class="stat-title">Accès élargi aux soins</h4>
+                    <p class="stat-description">
+                        Réseau multi-pays connecté à nos solutions logistiques et numériques futures.
+                    </p>
+                </div>
+                <div class="stat-card scroll-reveal">
+                    <div class="stat-number"><span data-target="25">0</span>%</div>
+                    <p class="stat-label">réduction des délais cible</p>
+                    <h4 class="stat-title">Efficience opérationnelle</h4>
+                    <p class="stat-description">
+                        Optimisation anticipée de la supply chain et de la traçabilité des dispositifs médicaux.
+                    </p>
+                </div>
+                <div class="stat-card scroll-reveal">
+                    <div class="stat-number"><span data-target="3500">0</span>+</div>
+                    <p class="stat-label">professionnels à former</p>
+                    <h4 class="stat-title">Renforcement des compétences</h4>
+                    <p class="stat-description">
+                        Programmes de formation continue en partenariat avec des acteurs locaux.
+                    </p>
+                </div>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card scroll-reveal">
+                    <h3 class="project-title">Digitalisation des réseaux de santé (Afrique de l'Ouest)</h3>
+                    <p class="project-description">
+                        Projet de mise en place de dossiers patients unifiés et portails e-santé : amélioration anticipée de la satisfaction patient et réduction des rendez-vous manqués.
+                    </p>
+                </div>
+                <div class="project-card scroll-reveal">
+                    <h3 class="project-title">Optimisation logistique des dispositifs médicaux</h3>
+                    <p class="project-description">
+                        Stratégie de traçabilité bout-en-bout et prévision de la demande : réduction des ruptures de stock et conformité renforcée.
+                    </p>
+                </div>
+                <div class="project-card scroll-reveal">
+                    <h3 class="project-title">Programme "Talent Santé Afrique"</h3>
+                    <p class="project-description">
+                        Académie de formation locale : montée en compétences accélérée et développement de l'employabilité dans le secteur santé.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Commitment Section -->
+    <section class="section commitment">
+        <div class="container">
+            <div class="commitment-content scroll-reveal">
+                <h2 class="section-title">Notre engagement futur</h2>
+                <p class="commitment-text">
+                    Nous nous préparons à être un catalyseur du changement positif : grâce à des projets structurants, des alliances stratégiques et une approche profondément humaine, nous œuvrerons pour un avenir où la santé est un droit universel, pas un privilège, sur l'ensemble du continent africain.
+                </p>
+                <div class="commitment-vision">
+                    « Alliance Synergie Santé – Préparer un avenir sain pour l'Afrique. »
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section">
+        <div class="container">
+            <h2 class="section-title">FAQ – Vision &amp; Déploiement futur</h2>
+            <div class="faq-container">
+                <div class="faq-item scroll-reveal">
+                    <div class="faq-question">
+                        <span>Dans quels pays envisagez-vous une expansion prioritaire ?</span>
+                        <span class="faq-icon">↓</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Nous préparons notre déploiement dans des marchés à fort potentiel en Afrique du Nord, de l'Ouest et centrale, avec une approche progressive et des partenariats locaux solides.</p>
+                    </div>
+                </div>
+                <div class="faq-item scroll-reveal">
+                    <div class="faq-question">
+                        <span>Comment intégrerez-vous l'innovation dans les services de santé ?</span>
+                        <span class="faq-icon">↓</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Par le développement de solutions de santé numérique (interopérabilité, télésanté, data), l'optimisation logistique et des approches centrées sur le patient.</p>
+                    </div>
+                </div>
+                <div class="faq-item scroll-reveal">
+                    <div class="faq-question">
+                        <span>Quel est l'impact social attendu de votre stratégie ?</span>
+                        <span class="faq-icon">↓</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Un meilleur accès aux soins, la montée en compétences des professionnels locaux et la création de valeur durable pour les communautés africaines.</p>
+                    </div>
+                </div>
+                <div class="faq-item scroll-reveal">
+                    <div class="faq-question">
+                        <span>Quand prévoyez-vous de débuter vos activités en Afrique ?</span>
+                        <span class="faq-icon">↓</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Nous sommes actuellement en phase de préparation stratégique et de développement de partenariats. Notre déploiement se fera de manière progressive et réfléchie, en fonction des opportunités et des conditions de marché.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+  <footer class="footer-greenblack" role="contentinfo">
+    <!-- Sprite SVG (icônes réelles) -->
+    <svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+      <defs>
+        <!-- LinkedIn -->
+        <symbol id="i-linkedin" viewBox="0 0 24 24">
+          <path d="M20.45 20.45h-3.56v-5.6c0-1.34-.02-3.07-1.87-3.07-1.88 0-2.17 1.47-2.17 2.98v5.69H9.29V9.75h3.41v1.46h.05c.48-.9 1.66-1.85 3.41-1.85 3.65 0 4.33 2.4 4.33 5.52v5.57zM6.16 8.29a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM4.38 20.45h3.56V9.75H4.38v10.7zM22.23 0H1.77C.79 0 0 .79 0 1.77v20.46C0 23.21.79 24 1.77 24h20.46C23.21 24 24 23.21 24 22.23V1.77C24 .79 23.21 0 22.23 0z"/>
+        </symbol>
+        <!-- Facebook -->
+        <symbol id="i-facebook" viewBox="0 0 24 24">
+          <path d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.35C0 23.407.593 24 1.325 24H12.82v-9.294H9.692V11.01h3.127V8.414c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.794.716-1.794 1.764v2.313h3.587l-.467 3.696h-3.12V24h6.116C23.407 24 24 23.407 24 22.675V1.325C24 .593 23.407 0 22.675 0z"/>
+        </symbol>
+        <!-- Instagram -->
+        <symbol id="i-instagram" viewBox="0 0 24 24">
+          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.17.056 1.97.24 2.427.401a4.9 4.9 0 0 1 1.77 1.153 4.9 4.9 0 0 1 1.153 1.77c.161.457.345 1.257.401 2.427.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.056 1.17-.24 1.97-.401 2.427a4.9 4.9 0 0 1-1.153 1.77 4.9 4.9 0 0 1-1.77 1.153c-.457.161-1.257.345-2.427.401-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.056-1.97-.24-2.427-.401a4.9 4.9 0 0 1-1.77-1.153 4.9 4.9 0 0 1-1.153-1.77c-.161-.457-.345-1.257-.401-2.427C2.175 15.584 2.163 15.204 2.163 12s.012-3.584.07-4.85c.056-1.17.24-1.97.401-2.427a4.9 4.9 0 0 1 1.153-1.77A4.9 4.9 0 0 1 5.557 1.73c.457-.161 1.257-.345 2.427-.401C9.25 1.27 9.63 1.163 12 1.163zM12 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm7.2-1.443a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88z"/>
+        </symbol>
+        <!-- YouTube -->
+        <symbol id="i-youtube" viewBox="0 0 24 24">
+          <path d="M23.5 6.2a3.06 3.06 0 0 0-2.16-2.16C19.48 3.5 12 3.5 12 3.5s-7.48 0-9.34.54A3.06 3.06 0 0 0 .5 6.2 32.6 32.6 0 0 0 0 12a32.6 32.6 0 0 0 .5 5.8 3.06 3.06 0 0 0 2.16 2.16C4.52 20.5 12 20.5 12 20.5s7.48 0 9.34-.54a3.06 3.06 0 0 0 2.16-2.16A32.6 32.6 0 0 0 24 12a32.6 32.6 0 0 0-.5-5.8zM9.75 15.02V8.98L15.5 12l-5.75 3.02z"/>
+        </symbol>
+        <!-- X -->
+        <symbol id="i-x" viewBox="0 0 24 24">
+          <path d="M18.244 2H21l-6.5 7.43L22.5 22h-6.9l-4.8-6.26L4.4 22H2l7-8L1.8 2h7l4.2 5.54L18.244 2zM17 20h2.1L8.1 4H6z"/>
+        </symbol>
+        <!-- TikTok -->
+        <symbol id="i-tiktok" viewBox="0 0 24 24">
+          <path d="M14.5 3.1v6.4a4.9 4.9 0 1 1-4 4.8V12a2.7 2.7 0 1 0 2.7 2.7V3.1h1.3z"/>
+          <path d="M15.2 3.3a6.9 6.9 0 0 0 5.2 2.1v2.3a8.9 8.9 0 0 1-5.2-1.8V3.3z"/>
+        </symbol>
+      </defs>
+    </svg>
+
+    <div class="footer-container">
+      <!-- Haut : logo + nom + navigation -->
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="../images/logo principal.png" alt="ALLIANCE SYNERGIE SANTÉ" class="brand-logo">
+          <span class="brand-name">ALLIANCE SYNERGIE SANTÉ</span>
+        </div>
+        <nav class="footer-links" aria-label="Liens du site">
+          <a href="../accueil.html">Accueil</a>
+          <a href="../pages/chaine-de-valeurs.html">Chaîne de valeurs</a>
+          <a href="../pages/marque-propre-A2S.html">Marques propre A2S</a>
+          <a href="../pages/marque-partenaire.html">Marques partenaires</a>
+          <a href="../pages/mediatheque.html">Médiathèque</a>
+          <a href="../pages/ambassadeur.html">Influenceurs</a>
+          <a href="../pages/espace-pro.html">Espace Pro</a>
+          <a href="../pages/carrieres.html">Carrières</a>
+          <a href="../pages/contact.html">Contact</a>
+        </nav>
+      </div>
+      <!-- Bas : Réseaux + Copyright -->
+      <div class="footer-bottom">
+        <nav class="social" aria-label="Réseaux sociaux">
+          <a href="https://www.linkedin.com/company/a2smaroc" aria-label="LinkedIn"><svg><use href="#i-linkedin"/></svg></a>
+          <a href="https://www.facebook.com/alliancesynergiesanteofficiel" aria-label="Facebook"><svg><use href="#i-facebook"/></svg></a>
+          <a href="https://www.instagram.com/a2s.maroc.officiel" aria-label="Instagram"><svg><use href="#i-instagram"/></svg></a>
+          <a href="https://www.youtube.com/c/AllianceSynergieSant%C3%A9" aria-label="YouTube"><svg><use href="#i-youtube"/></svg></a>
+          <a href="https://x.com/A2sSante" aria-label="X (Twitter)"><svg><use href="#i-x"/></svg></a>
+          <a href="https://www.tiktok.com/@a2s.officiel" aria-label="TikTok"><svg><use href="#i-tiktok"/></svg></a>
+        </nav>
+        <small>© <span id="year"></span> ALLIANCE SYNERGIE SANTÉ — Tous droits réservés.</small>
+      </div>
+    </div>
+  </footer>
+
+  
+
+  
+
+</body>
+</html>

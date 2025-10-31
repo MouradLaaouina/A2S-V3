@@ -1,0 +1,156 @@
+/* ================================================ */
+/* CSS pour SPLASH */
+/* ================================================ */
+
+:root{
+      --black:#000; --grey:#d1d1d1; --green:#00E676; --white:#fff;
+      --bg1:#0a1f0a; --bg2:#000000; --muted:rgba(0,230,118,.08);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif;
+      background: radial-gradient(circle at 50% 35%, var(--bg1) 0%, var(--bg2) 70%);
+      color:var(--white); overflow:hidden; cursor: pointer;
+    }
+
+    /* =============== SPLASH =============== */
+    #splashScreen{
+      position:fixed; inset:0; display:grid; place-items:center; z-index:9999;
+      transition:opacity 800ms cubic-bezier(.25,.46,.45,.94), visibility 800ms;
+      background:
+        radial-gradient(1200px 800px at 20% 80%, rgba(0,230,118,.14), transparent 60%),
+        radial-gradient(1000px 700px at 80% 20%, rgba(209,209,209,.08), transparent 65%),
+        radial-gradient(900px 900px at 50% 50%, rgba(0,230,118,.05), transparent 70%);
+    }
+    #splashScreen.fade-out{opacity:0; visibility:hidden; pointer-events:none}
+
+    canvas#particleCanvas{position:absolute; inset:0; width:100%; height:100%; z-index:1}
+
+    .content{position:relative; z-index:10; text-align:center; padding:2rem;}
+
+    .logo-wrap{position:relative; display:inline-block; margin-bottom:1.2rem;}
+    .logo-wrap::after{ /* halo vert */
+      content:""; position:absolute; inset:-14% -14%; border-radius:50%;
+      background: radial-gradient(closest-side, rgba(0,230,118,.35), transparent 70%);
+      filter: blur(12px); opacity:.0; transform:scale(.8); transition:opacity .8s ease, transform .8s ease;
+    }
+    .logo{width:min(180px,45vw); height:auto; opacity:0; transform:translateY(15px) scale(.96);
+      filter:drop-shadow(0 0 20px rgba(0,230,118,.25)); transition:opacity 800ms ease, transform 900ms cubic-bezier(.2,.8,.2,1)}
+
+    .brand-name{
+      font-size:clamp(1.8rem, 6vw, 4rem); 
+      font-weight:300; 
+      letter-spacing:.15em; 
+      text-transform:uppercase;
+      text-shadow:0 0 30px rgba(0,230,118,.45);
+      margin:0 0 .6rem; 
+      opacity:0; 
+      transform:translateY(12px) scale(.98);
+      position:relative; 
+      isolation:isolate;
+      white-space: nowrap;
+      overflow: hidden;
+      padding: 0 1rem;
+    }
+    .brand-name::before{ /* shimmer vert */
+      content:""; position:absolute; inset:0; background:
+        linear-gradient(105deg, transparent 30%, rgba(0,230,118,.28) 50%, transparent 70%);
+      mix-blend-mode:screen; translate:-120% 0; opacity:0; pointer-events:none;
+    }
+
+    .brand-letter{display:inline-block; transition:transform .6s cubic-bezier(.68,-.55,.265,1.55), color .4s ease, text-shadow .4s ease}
+
+    .tagline{
+      font-size:clamp(.95rem,2.6vw,1.3rem); 
+      color:var(--grey); 
+      font-weight:300; 
+      letter-spacing:.18em;
+      opacity:0; 
+      transform:translateY(10px); 
+      margin:.6rem 0 2rem; 
+      font-style:italic;
+    }
+
+    .cta{
+      font-size:.95rem; 
+      letter-spacing:.18em; 
+      color:rgba(209,209,209,.8); 
+      opacity:0; 
+      transform:translateY(6px);
+      animation:pulse 2.2s ease-in-out infinite; 
+      user-select:none;
+    }
+
+    .skip-button{
+      position:absolute; 
+      top:1.2rem; 
+      right:1.2rem; 
+      z-index:20; 
+      border-radius:999px;
+      border:1px solid rgba(209,209,209,.32); 
+      background:rgba(255,255,255,.08); 
+      color:var(--grey);
+      padding:.7rem 1.2rem; 
+      font-size:.9rem; 
+      letter-spacing:.12em; 
+      cursor:pointer; 
+      backdrop-filter:blur(8px);
+      transition:transform .2s ease, box-shadow .2s ease, border-color .2s ease, color .2s ease, background .2s ease;
+    }
+    .skip-button:hover{
+      transform:translateY(-1px); 
+      color:var(--green); 
+      border-color:var(--green); 
+      box-shadow:0 10px 22px rgba(0,230,118,.18);
+    }
+
+    /* sparkles layer */
+    .sparkles{position:absolute; inset:0; pointer-events:none; z-index:5}
+
+    /* Animations */
+    @keyframes pulse{0%,100%{opacity:.7; transform:translateY(6px)}50%{opacity:1; transform:translateY(0)}}
+    @keyframes floaty{0%{transform:translateY(0)}50%{transform:translateY(-6px)}100%{transform:translateY(0)}}
+
+    /* Hover micro-interactions */
+    .brand-name:hover .brand-letter{will-change:transform}
+    .brand-letter:hover{transform:translateY(-6px) scale(1.06); color:var(--green); text-shadow:0 0 30px rgba(0,230,118,.8)}
+
+    /* Responsive amélioré */
+    @media (max-width: 768px){
+      .brand-name{
+        font-size: clamp(1.4rem, 5vw, 2.5rem);
+        letter-spacing: .1em;
+        padding: 0 0.5rem;
+      }
+      .skip-button{
+        top:.8rem; 
+        right:.8rem; 
+        padding:.55rem 1rem; 
+        font-size:.8rem;
+      }
+      .logo{width:min(140px,40vw);}
+      .tagline{font-size:clamp(.85rem,2vw,1.1rem);}
+    }
+
+    @media (max-width: 480px){
+      .brand-name{
+        font-size: clamp(1.2rem, 4.5vw, 2rem);
+        letter-spacing: .08em;
+      }
+      .content{padding:1rem;}
+    }
+
+    @media (max-width: 360px){
+      .brand-name{
+        font-size: clamp(1rem, 4vw, 1.8rem);
+        letter-spacing: .06em;
+      }
+    }
+
+    /* Accessibility: reduce motion */
+    @media (prefers-reduced-motion:reduce){
+      *{animation:none !important; transition:none !important}
+      canvas#particleCanvas{display:none}
+    }
+
