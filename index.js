@@ -221,13 +221,13 @@
   // Redirection au clic n'importe où sur le body
   document.addEventListener('DOMContentLoaded', function() {
       document.body.addEventListener('click', function() {
-          window.location.href = '../accueil.html';
+          window.location.href = 'accueil.html';
       });
       
       // Redirection avec Entrée
       document.addEventListener('keydown', function(e) {
           if (e.key === 'Enter') {
-              window.location.href = '../accueil.html';
+              window.location.href = 'accueil.html';
           }
       });
   });
