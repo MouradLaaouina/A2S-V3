@@ -239,7 +239,7 @@
         <section class="filter-section">
             <div class="filter-buttons">
                 <button class="filter-btn active" data-filter="all">Tous les événements</button>
-                <button class="filter-btn" data-filter="projets">Projets</button>
+                <button class="filter-btn" data-filter="projets">Prod</button>
                 <button class="filter-btn" data-filter="evenements">Événements</button>
                 <button class="filter-btn" data-filter="Formation">Formation</button>
             </div>
@@ -292,6 +292,43 @@
     <script>
         // Données des médias regroupés par événements
         const eventsData = [
+          {
+                id: 4,
+                title: "Production ALLIANCE SYNERGIE SANTE",
+                date: "October 2025",
+                location: "Casablanca",
+                category: "Prod",
+                description: "La production publicitaire",
+                medias: [
+                  {
+                        id: 36,
+                        type: 'video',
+                        src: '../images/videos/pub3.mp4',
+                        poster: '../images/videos/Capture4.PNG',
+                        title: 'Le secret de confiance de Mouna Fettou ? Ce n’est pas ce que vous croyez…'
+                    },
+                    {
+                        id: 33,
+                        type: 'video',
+                        src: '../images/videos/pub1.mp4',
+                        poster: '../images/videos/Capture1.PNG',
+                        title: 'Mouna Fettou Ambassadrice DCAP'
+                    },
+                    {
+                        id: 34,
+                        type: 'video',
+                        src: '../images/videos/pub2.mp4',
+                        poster: '../images/videos/Capture.PNG',
+                        title: 'Mouna Fettou Ambassadrice DCAP'
+                    },  
+                    {
+                        id: 38,
+                        type: 'photo',
+                        src: '../images/videos/Capture3.jpg',
+                        title: 'Mouna Fettou Ambassadrice DCAP'
+                    } 
+                ]
+            },
             {
                 id: 1,
                 title: "Mouna Fettou, nouvelle égérie D-CAP & D-WHITE",
