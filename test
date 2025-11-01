@@ -1,0 +1,3244 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light" data-theme-tz="Africa/Casablanca">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <!-- Métadonnées SEO -->
+    <meta name="description" content="Alliance Synergie Santé (A2S) – société marocaine spécialisée dans des solutions dermo-cosmétiques innovantes, basée à Casablanca." />
+    <meta name="keywords" content="dermo-cosmétique, santé, beauté, Maroc, A2S, gynécologie, dermatologie, médecine esthétique, D-White, DCAP, Sensilis, Cumlaude Lab, Castéra, Buccotherm, Babé, Florame" />
+    <meta name="author" content="Alliance Synergie Santé" />
+    <!-- Open Graph / Twitter -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://a2s.co.ma" />
+    <meta property="og:title" content="Alliance Synergie Santé – Solutions Dermo-Cosmétiques" />
+    <meta property="og:description" content="A2S propose au Maroc des solutions dermo-cosmétiques innovantes et durables pour les professionnels de la santé et de la beauté." />
+    <meta property="og:image" content="https://a2s.co.ma/logoa2s.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://a2s.co.ma" />
+    <meta name="twitter:title" content="Alliance Synergie Santé – Accueil" />
+    <meta name="twitter:description" content="Découvrez A2S, votre partenaire pour des solutions dermo-cosmétiques innovantes au Maroc." />
+    <meta name="twitter:image" content="https://a2s.co.ma/logoa2s.png" />
+    <title>Alliance Synergie Santé – Solutions dermo-cosmétiques</title>
+    <!-- Favicon / theme-color (sera mis à jour dynamiquement) -->
+    <link rel="icon" type="image/png" sizes="16x16" href="https://a2s.co.ma/logoa2s.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="https://a2s.co.ma/logoa2s.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="https://a2s.co.ma/logoa2s.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="https://a2s.co.ma/logoa2s.png" />
+    <link rel="shortcut icon" href="images/A2S Logo 1.png" type="image/png" />
+    <meta name="theme-color" content="#2f6b2f" />
+    <!-- Polices -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Playfair+Display:wght@700&family=Caveat:wght@400..700&display=swap" rel="stylesheet" />
+    <script src="js/theme.js" defer></script>
+    <!-- Données structurées -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Alliance Synergie Santé",
+        "alternateName": "A2S",
+        "url": "https://a2s.co.ma",
+        "logo": "https://a2s.co.ma/logoa2s.png",
+        "description": "Société marocaine spécialisée dans des solutions dermo-cosmétiques innovantes",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Casablanca",
+          "addressCountry": "MA"
+        },
+        "areaServed": "MA"
+      }
+    </script>
+    <!-- Harmonisation des en-têtes: appliquer le style Impact -->
+    <!-- ====== NOTRE IMPACT NATUREL - Styles ====== -->
+    <!-- ====== NOTRE UNIVERS – Styles scoppés ====== -->
+    <!-- ====== NOTRE ENGAGEMENT – Styles ====== -->
+    <!-- External Stylesheets -->
+     <style>
+    
+
+/* ================================================ */
+/* EXTRACTED AND OPTIMIZED CSS FROM INDEX.HTML */
+/* ================================================ */
+
+
+/* ========== STYLE BLOCK 1 ========== */
+/* =============================================================
+       DESIGN SYSTEM — Variables CSS (thème, couleurs, rayons, ombres)
+    ============================================================= */
+    :root {
+      /* Couleurs marque */
+      --brand: #2f6b2f;
+      --brand-2: #4a9d4a;
+      --brand-3: #00e676;
+
+      /* Surfaces & texte (mode clair par défaut) */
+      --bg: #ffffff;
+      --surface: rgba(255,255,255,0.85);
+      --elev: rgba(255,255,255,0.98);
+      --text: #0b0b0b;
+      --text-2: #333333;
+      --border: rgba(0,230,118,0.28);
+      --chip: rgba(0,0,0,0.04);
+      --dwhite-color: #e6f2ff;
+      --dcap-color: #fff0e6;
+
+      /* Nuances utilitaires */
+      --g-50:#f9fafb; --g-100:#f3f4f6; --g-200:#e5e7eb; --g-300:#d1d5db;
+      --g-400:#9ca3af; --g-500:#6b7280; --g-600:#4b5563; --g-700:#374151; --g-800:#1f2937; --g-900:#111827;
+
+      /* Typo */
+      --sans:'Inter', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+      --display:'Playfair Display', serif;
+      --hand:'Caveat', cursive;
+
+      /* Spacings & radius */
+      --xs:.5rem; --sm:1rem; --md:1.5rem; --lg:2rem; --xl:3rem; --xxl:4rem;
+      --r-sm:.375rem; --r-md:.5rem; --r-lg:.75rem; --r-xl:1rem; --r-2xl:1.25rem;
+
+      /* Ombres */
+      --sh-sm: 0 1px 2px 0 rgb(0 0 0 / .06);
+      --sh-md: 0 6px 16px -2px rgb(0 0 0 / .10);
+      --sh-lg: 0 12px 28px -8px rgb(0 0 0 / .18);
+      --sh-xl: 0 24px 48px -12px rgb(0 0 0 / .25);
+
+      /* Transitions */
+      --t-fast: 150ms ease; --t: 280ms ease; --t-slow: 500ms ease;
+
+      /* Hauteur sûre (mise à jour en JS) */
+      --vh: 1dvh;
+    }
+
+    @media (prefers-color-scheme: dark) { :root:not([data-forced]) { color-scheme: dark; } }
+    @media (prefers-color-scheme: light){ :root:not([data-forced]) { color-scheme: light;} }
+
+    html[data-theme="dark"] {
+      --bg: #0a0a0a;
+      --surface: rgba(26,26,26,0.85);
+      --elev: rgba(20,20,20,0.97);
+      --text:#ffffff;
+      --text-2:#d0d0d0;
+      --border: rgba(0,230,118,0.22);
+      --chip: rgba(26,26,26,0.6);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    html, body { overflow-x: hidden; }
+    body {
+      margin: 0;
+      font-family: var(--sans);
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+    }
+    img { max-width: 100%; height: auto; }
+    .sr-only { position: absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+    :focus-visible { outline:2px solid color-mix(in srgb, var(--brand-3) 60%, transparent); outline-offset:2px; border-radius:8px; }
+
+    /* HERO SECTION */
+    .hero { 
+      position: relative; 
+      isolation: isolate; 
+      color: var(--text); 
+      min-height: 60svh;
+      display:grid; 
+      grid-template-columns: 1.15fr 1fr; 
+      gap:clamp(20px, 4vw, 48px);
+      align-items:center; 
+      padding: min(6vw, 72px);
+      background: #0a0a0a00;
+    }
+
+    .hero__fx-aurora, .hero__fx-shine { 
+      position:absolute; 
+      inset:-20%; 
+      pointer-events:none; 
+      z-index:-1; 
+      filter: blur(28px) saturate(130%); 
+      will-change: transform;
+    }
+    
+    .hero__fx-aurora { 
+      background: conic-gradient(from 140deg at 70% 30%, #0aff811e, #00e6762b, #8bff9a1a, #0aff811e); 
+      animation: drift 22s ease-in-out infinite alternate; 
+    }
+    
+    .hero__fx-shine { 
+      background: radial-gradient(1200px 180px at -20% 30%, #ffffff10, #0000 60%); 
+      mix-blend-mode: screen; 
+      animation: sweep 7s linear infinite; 
+    }
+
+    @keyframes drift { to { transform: translate3d(2%,-2%,0) rotate(10deg); } }
+    @keyframes sweep { to { transform: translateX(140%); } }
+
+    @media (prefers-reduced-motion: reduce) { 
+      .hero__fx-aurora, .hero__fx-shine { animation: none !important; } 
+    }
+
+    .hero__brand { 
+      display:flex; 
+      align-items:center; 
+      gap:.75rem; 
+      margin:0 0 .5rem; 
+      color: #2f6b2f; 
+    }
+    
+    .hero__brand img { 
+      width:80px; 
+      height:80px; 
+      object-fit: contain; 
+      filter: drop-shadow(0 6px 12px #0003); 
+    }
+    
+    .hero__title { 
+      margin:0 0 .5rem; 
+      line-height:1.02; 
+      letter-spacing:-.02em;
+      color: var(--text);
+      font-family: var(--display);
+      font-size: clamp(2rem, 5vw, 3.5rem);
+    }
+    
+    .hero__lead { 
+      margin:0; 
+      max-width: 60ch; 
+      font-size: clamp(1rem, 2.5vw, 1.2rem);
+      color: var(--text-2);
+    }
+
+    /* ORBIT ANIMATION */
+    .orbit { 
+      position: relative; 
+      height: min(54svh, 520px); 
+      display:grid; 
+      place-items:center; 
+      perspective: 1200px;
+      will-change: transform;
+    }
+
+    .orbit__core { 
+      width:140px; 
+      height:140px; 
+      border-radius:50%; 
+      display:grid; 
+      place-items:center; 
+      position:relative; 
+      overflow:hidden;
+      background: radial-gradient(circle at 30% 30%, #ffffffaa, #ffffff22 40%, #0000 65%), linear-gradient(180deg,#ffffff0f,#00000033);
+      outline:1px solid #ffffff22; 
+      box-shadow: var(--sh-lg); 
+      transform: translateZ(30px);
+      backface-visibility: hidden;
+      will-change: transform;
+      z-index: 2;
+    }
+
+    .orbit__core::after { 
+      content:""; 
+      position:absolute; 
+      inset:-20%; 
+      background:radial-gradient(circle, var(--brand-2) 0, #0000 60%);
+      opacity:.15; 
+      animation:pulse 3.2s ease-in-out infinite;
+      will-change: transform, opacity;
+    }
+
+    @keyframes pulse { 
+      50% { 
+        opacity:.3; 
+        transform: scale(1.06); 
+      } 
+    }
+
+    .orbit__core img { 
+      width: 200px; 
+      height:72px; 
+      object-fit: contain; 
+      position: relative; 
+      z-index: 1; 
+    }
+
+    .orbit__ring { 
+      position:absolute; 
+      transform-style: preserve-3d; 
+      animation: spin 20s linear infinite;
+      will-change: transform;
+      backface-visibility: hidden;
+    }
+
+    @keyframes spin { to { transform: rotateY(1turn); } }
+
+    .chip { 
+      position:absolute; 
+      top:50%; 
+      left:50%; 
+      transform-style: preserve-3d;
+      display:inline-flex; 
+      align-items:center; 
+      gap:8px; 
+      padding:10px 14px; 
+      border-radius:999px;
+      font-weight:800; 
+      font-size:14px; 
+      letter-spacing:.2px; 
+      color:#06240f; 
+      white-space:nowrap;
+      background:linear-gradient(135deg,#eafff0,#bfffd1);
+      box-shadow:0 8px 20px #0003; 
+      backdrop-filter: blur(4px); 
+      outline:1px solid #ffffff77;
+      will-change: transform;
+      backface-visibility: hidden;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .chip:hover {
+      transform: translateZ(10px) scale(1.1);
+      box-shadow: 0 12px 24px rgba(0,0,0,0.25);
+    }
+
+    .chip img { 
+      width:18px; 
+      height:18px; 
+      object-fit: contain; 
+      filter: drop-shadow(0 2px 4px #0002);
+      flex-shrink: 0;
+    }
+
+    .chip--main { 
+      padding:14px 18px; 
+      font-size:16px; 
+      transform: translateZ(40px) scale(1.12); 
+      z-index: 1;
+    }
+
+    .chip--dwhite {
+      background: linear-gradient(135deg, var(--dwhite-color), #cce5ff 60%, #e6f2ff);
+      box-shadow: 0 14px 28px rgba(0, 102, 204, 0.2);
+    }
+
+    .chip--dcap {
+      background: linear-gradient(135deg, var(--dcap-color), #ffd9c2 60%, #fff0e6);
+      box-shadow: 0 14px 28px rgba(204, 102, 0, 0.2);
+    }
+
+    /* Inner orbit for D-WHITE and D-CAP */
+    .orbit__ring--inner {
+      animation-duration: 15s;
+    }
+
+    /* Outer orbit for other products */
+    .orbit__ring--outer {
+      animation-duration: 25s;
+      animation-direction: reverse;
+    }
+
+    /* Chip positions for inner orbit (D-WHITE and D-CAP) */
+    .orbit__ring--inner .chip:nth-child(1) { 
+      transform: rotateY(0deg) translateZ(180px) translateY(0); 
+    }
+    .orbit__ring--inner .chip:nth-child(2) { 
+      transform: rotateY(180deg) translateZ(180px) translateY(0); 
+    }
+
+    /* Chip positions for outer orbit */
+    .orbit__ring--outer .chip:nth-child(1) { transform: rotateY(0deg)   translateZ(220px) translateY(-110px); }
+    .orbit__ring--outer .chip:nth-child(2) { transform: rotateY(45deg)  translateZ(220px) translateY(40px); }
+    .orbit__ring--outer .chip:nth-child(3) { transform: rotateY(90deg)  translateZ(220px) translateY(-40px); }
+    .orbit__ring--outer .chip:nth-child(4) { transform: rotateY(135deg) translateZ(220px) translateY(-140px); }
+    .orbit__ring--outer .chip:nth-child(5) { transform: rotateY(180deg) translateZ(220px) translateY(60px); }
+    .orbit__ring--outer .chip:nth-child(6) { transform: rotateY(225deg) translateZ(220px) translateY(-10px); }
+    .orbit__ring--outer .chip:nth-child(7) { transform: rotateY(270deg) translateZ(220px) translateY(-100px); }
+    .orbit__ring--outer .chip:nth-child(8) { transform: rotateY(315deg) translateZ(220px) translateY(70px); }
+
+    @media (max-width: 980px) {
+      .hero { grid-template-columns: 1fr; row-gap: 28px; padding-block: min(10vw, 64px); }
+      .orbit { height: 46svh; }
+      .orbit__core { width:120px; height:120px; }
+      
+      /* Adjust orbit positions for mobile */
+      .orbit__ring--inner .chip:nth-child(1) { 
+        transform: rotateY(0deg) translateZ(140px) translateY(0); 
+      }
+      .orbit__ring--inner .chip:nth-child(2) { 
+        transform: rotateY(180deg) translateZ(140px) translateY(0); 
+      }
+      
+      .orbit__ring--outer .chip:nth-child(1) { transform: rotateY(0deg)   translateZ(180px) translateY(-90px); }
+      .orbit__ring--outer .chip:nth-child(2) { transform: rotateY(45deg)  translateZ(180px) translateY(30px); }
+      .orbit__ring--outer .chip:nth-child(3) { transform: rotateY(90deg)  translateZ(180px) translateY(-30px); }
+      .orbit__ring--outer .chip:nth-child(4) { transform: rotateY(135deg) translateZ(180px) translateY(-110px); }
+      .orbit__ring--outer .chip:nth-child(5) { transform: rotateY(180deg) translateZ(180px) translateY(40px); }
+      .orbit__ring--outer .chip:nth-child(6) { transform: rotateY(225deg) translateZ(180px) translateY(-5px); }
+      .orbit__ring--outer .chip:nth-child(7) { transform: rotateY(270deg) translateZ(180px) translateY(-80px); }
+      .orbit__ring--outer .chip:nth-child(8) { transform: rotateY(315deg) translateZ(180px) translateY(50px); }
+    }
+
+    /* KPI + LOGOS (styles Galerie retirés) */
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 var(--md); }
+    .section { padding: clamp(28px, 4vw, 48px) 0; }
+    .section__title { text-align: center; }
+    .section__intro { text-align:center; max-width: 48rem; margin: .5rem auto 0; font-size: 1.0625rem; }
+
+    .kpi { display:grid; grid-template-columns: 1fr; gap: var(--lg); }
+    @media (min-width: 640px)  { .kpi { grid-template-columns: repeat(2,1fr); } }
+    @media (min-width: 1024px) { .kpi { grid-template-columns: repeat(4,1fr); } }
+    .kpi__card { text-align: center; padding: var(--xl); background: var(--elev); border-radius: var(--r-xl); box-shadow: var(--sh-md); }
+    .kpi__value { font-family: var(--display); font-size: clamp(2.25rem, 4vw, 3rem); color: var(--brand); font-weight: 900; margin-bottom: .35rem; }
+
+    .logos {  padding: var(--xl); }
+    .logos__grid { display:grid; gap: clamp(16px, 3vw, 28px); grid-template-columns: repeat(2, minmax(120px, 1fr)); }
+    @media (min-width: 640px)  { .logos__grid { grid-template-columns: repeat(4, minmax(120px, 1fr)); } }
+    @media (min-width: 1024px) { .logos__grid { grid-template-columns: repeat(6, minmax(120px, 1fr)); } }
+    .logo-tile { display:flex; align-items:center; justify-content:center; flex-direction: column; gap:8px; padding:18px; border-radius:16px;
+      background: linear-gradient(180deg, #fafafa, #f3f5f6); border:1px solid #e9ecef; box-shadow: 0 10px 24px rgba(0,0,0,.06);
+      transition: transform .25s ease, box-shadow .25s ease, filter .25s ease, opacity .25s ease;
+      filter: grayscale(1); opacity: .86; animation: bob 5.5s ease-in-out infinite; }
+    .logo-tile:hover { transform: translateY(-6px) scale(1.03); box-shadow: 0 16px 36px rgba(0,0,0,.10); filter:none; opacity:1; }
+    .logo-tile img { height: 32px; width:auto; object-fit:contain; }
+    .logo-caption { font-size: .8rem; color: var(--text-2); text-align:center; line-height:1.2; }
+    /* Featured partner logos */
+    .logo-tile--featured { padding:24px; }
+    .logo-tile--featured img { height: 44px; }
+    /* Make featured fill the first row fully */
+    @media (max-width: 639px){ .logo-tile--featured { grid-column: 1 / -1; } }
+    @media (min-width: 640px){ .logo-tile--featured { grid-column: span 2; } }
+    @media (min-width: 1024px){ .logo-tile--featured { grid-column: span 3; } }
+    .logo-tile:nth-child(3n){ animation-delay:.6s } .logo-tile:nth-child(4n){ animation-delay:1.1s } .logo-tile:nth-child(5n){ animation-delay:1.8s }
+    @keyframes bob { 0%,100%{ transform:translateY(0) } 50%{ transform:translateY(-6px) } }
+
+    /* TYPO - Harmonisation des titres */
+    h1, h2, h3,
+    .section__title,
+    .hero__title,
+    .nu-vars .hero-title,
+    .engagement-title,
+    .block-title,
+    .gallery-title { font-family: var(--display); }
+
+    /* UTILITAIRES */
+    .fade-in-up { animation: fadeInUp .6s ease-out both; }
+    @keyframes fadeInUp { from { opacity:0; transform: translateY(30px); } to { opacity:1; transform: translateY(0); } }
+    @media (max-width: 639px) { .container{ padding: 0 var(--sm); } }
+    @media print { /* styles overlay Galerie retirés */ .card-img__overlay { display:none !important; } }
+
+    /* ====================== NAVBAR A2S ====================== */
+    .nav{ position:fixed; top:0; left:0; right:0; z-index:1000; }
+    .nav__bar{
+      display:flex; align-items:center; justify-content:space-between; gap:.75rem;
+      margin:0; max-width:none; width:100%;
+      padding:.75rem clamp(16px, 4vw, 32px); background:var(--surface); backdrop-filter:saturate(120%) blur(16px);
+      border:1px solid var(--border); border-left:none; border-right:none; border-radius:0; box-shadow:var(--sh-lg);
+    }
+    .brand{ display:flex; align-items:center; gap:.6rem; text-decoration:none; color:inherit; }
+    .brand__logo-wrap{ width:42px; height:42px; display:grid; place-items:center; border-radius:999px; background:var(--chip); border:1px solid var(--border); overflow:hidden; }
+    .brand__logo{ width:28px; height:28px; object-fit:contain; }
+    .brand__name{ font-weight:800; letter-spacing:.2px; }
+
+    nav[aria-label="Navigation principale"]{ display:block; }
+    .nav__menu{ display:flex; align-items:center; gap:.25rem; list-style:none; padding:0; margin:0; }
+    .nav__item{ position:relative; }
+    .nav__btn,.nav__link{
+      display:flex; align-items:center; gap:.35rem; padding:.55rem .7rem; border-radius:.65rem; border:1px solid transparent;
+      background:var(--chip); color:var(--text); text-decoration:none; font-weight:600; transition:var(--t-fast);
+      min-height:44px; min-width:44px;
+    }
+    .nav__btn:hover,.nav__link:hover{ transform:translateY(-2px); border-color:var(--border); color:var(--brand-3); }
+    .nav__btn svg{ flex:0 0 auto }
+
+    /* Dropdown desktop */
+    .dropdown{
+      position:absolute; left:0; top:calc(100% + 10px); min-width:260px; background:var(--elev);
+      border:1px solid var(--border); border-radius:var(--r-2xl); box-shadow:var(--sh-xl);
+      opacity:0; transform:translateY(-6px); pointer-events:none; transition:var(--t-fast); padding:.5rem;
+    }
+    .nav__item[aria-expanded="true"]>.dropdown{ opacity:1; transform:translateY(0); pointer-events:auto; }
+    .dropdown a{ display:flex; gap:.6rem; align-items:center; padding:.6rem .7rem; border-radius:.6rem; color:var(--text); text-decoration:none; }
+    .dropdown a:hover{ background:color-mix(in srgb, var(--brand-3) 12%, transparent); color:var(--brand); transform:translateX(4px); }
+
+    /* Outils */
+    .nav__tools{ display:flex; align-items:center; gap:.5rem; }
+
+    /* Burger */
+    .burger{ display:none; padding:.65rem; border-radius:.6rem; border:1px solid var(--border); background:var(--chip); min-height:44px; min-width:44px; cursor: pointer; }
+    .burger span{ display:block; width:22px; height:2px; background:currentColor; transition: transform 0.3s ease, opacity 0.3s ease; }
+    .burger span+span{ margin-top:5px; }
+    .burger.active span:nth-child(1){ transform: translateY(7px) rotate(45deg); }
+    .burger.active span:nth-child(2){ opacity: 0; }
+    .burger.active span:nth-child(3){ transform: translateY(-7px) rotate(-45deg); }
+
+    /* Panneau mobile (dialog) - AMÉLIORÉ */
+    .panel{
+      position:fixed; inset:0; z-index:950; background:var(--elev); backdrop-filter:blur(18px);
+      display:grid; grid-template-rows:auto 1fr auto;
+      padding:calc(env(safe-area-inset-top) + var(--nav-h, 72px)) 20px 20px;
+      min-height: calc(var(--vh, 1dvh) * 100);
+      opacity:0; transform: translateX(-100%); pointer-events:none; transition:var(--t);
+      overscroll-behavior:contain;
+    }
+    .panel--open{ opacity:1; transform: translateX(0); pointer-events:auto; box-shadow:var(--sh-xl); }
+    .panel__section{ border:1px solid var(--border); border-radius:var(--r-2xl); background:var(--surface); overflow:hidden; margin-bottom:12px; }
+    .panel__trigger{ width:100%; display:flex; justify-content:space-between; align-items:center; gap:.5rem; padding:16px 18px; border:0; background:none; color:var(--text); font-weight:800; cursor:pointer; min-height:54px; font-size: 1.1rem; }
+    .panel__trigger span{ transition: transform 0.3s ease; }
+    .panel__section[aria-expanded="true"] .panel__trigger span{ transform: rotate(180deg); }
+    .panel__content{ max-height:0; overflow:hidden; transition:max-height var(--t); }
+    .panel__section[aria-expanded="true"] .panel__content{ max-height:520px; }
+    .panel a.nav__link{ display:block; margin:8px 12px; padding:14px 16px; border-radius:.65rem; font-size: 1rem; border: 1px solid transparent; transition: all 0.2s ease; }
+    .panel a.nav__link:hover, .panel a.nav__link:focus{ border-color: var(--border); background: color-mix(in srgb, var(--brand-3) 8%, transparent); }
+
+    /* Responsive navbar */
+    @media (max-width:960px){
+      .nav__menu{ display:none; }
+      .burger{ display:inline-flex; flex-direction:column; align-items:center; justify-content:center; }
+      .nav__bar { gap:.5rem; }
+      .brand__name { font-size:.95rem; }
+    }
+
+    /* Mode paysage mobile : compacter la barre et le hero */
+    @media (orientation: landscape) and (max-width: 960px){
+      .hero { min-height: 48svh; padding-block: 40px; }
+      .orbit { height: 40svh; }
+      .dropdown { top: calc(100% + 6px); }
+      .nav__bar { padding: .55rem .75rem; }
+      .brand__name { display: none; }
+      .panel { padding-top: calc(env(safe-area-inset-top) + var(--nav-h, 60px)); }
+    }
+
+    
+
+    /* Améliorations pour les très petits écrans */
+    @media (max-width: 360px) {
+      .panel__trigger { padding: 14px 16px; font-size: 1rem; }
+      .panel a.nav__link { padding: 12px 14px; font-size: 0.95rem; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { transition:none !important; animation:none !important; }
+      .panel__content { transition:none !important; }
+    }
+
+
+/* ========== STYLE BLOCK 2 ========== */
+/* Forcer le dégradé et l'animation Impact sur Engagement et Univers */
+    .engagement-title.impact-title,
+    .nu-vars .hero-title.impact-title {
+      background: var(--gradient-green-primary);
+      background-size: 200% auto;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      animation: greenGradientShift 8s ease infinite;
+    }
+    .engagement-subtitle.impact-subtitle,
+    .nu-vars .hero-subtitle.impact-subtitle {
+      color: var(--green-deep-forest);
+    }
+    /* Éviter la double ligne décorative sous le titre Univers */
+    .nu-vars .hero-title.impact-title::after { content: none; }
+    
+    /* Compact: réduire l'espace vertical entre sections */
+    .section { padding: clamp(24px, 3.5vw, 40px) 0; }
+    .nu-vars .universe-section,
+    .engagement-section,
+    .impact-section {
+      padding-top: clamp(24px, 3.5vw, 40px);
+      padding-bottom: clamp(24px, 3.5vw, 40px);
+    }
+
+
+/* ========== STYLE BLOCK 3 ========== */
+/* ========================================
+     NOTRE IMPACT NATUREL - SIMPLIFIED VERSION
+     ======================================== */
+
+  /* Green Color Palette */
+  :root {
+    --green-deep-forest: #064e3b;
+    --green-emerald: #059669;
+    --green-mint: #10b981;
+    --green-light-sage: #6ee7b7;
+    --green-pale-mint: #d1fae5;
+    --white-pure: #ffffff;
+    --gray-dark: #2d2d2d;
+    
+    /* Green Gradients */
+    --gradient-green-primary: linear-gradient(135deg, #064e3b 0%, #059669 50%, #10b981 100%);
+    --gradient-green-accent: linear-gradient(90deg, #10b981 0%, #6ee7b7 100%);
+    --gradient-green-radial: radial-gradient(circle, rgba(16, 185, 129, 0.15) 0%, transparent 70%);
+  }
+
+  .impact-section {
+    position: relative;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: clamp(40px, 6vw, 72px) 1.5rem;
+    overflow: hidden;
+  }
+
+  /* ========================================
+     SECTION HEADER
+     ======================================== */
+
+  .impact-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.35s ease, transform 0.35s ease;
+  }
+
+  .impact-header.animate-in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .impact-title {
+    font-size: 3rem;
+    font-weight: 800;
+    background: var(--gradient-green-primary);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 1rem;
+    letter-spacing: -0.02em;
+    animation: greenGradientShift 8s ease infinite;
+  }
+
+  @keyframes greenGradientShift {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+  }
+
+  .impact-subtitle {
+    font-size: 1.25rem;
+    color: var(--green-deep-forest);
+    font-weight: 500;
+    max-width: 900px;
+    margin: 0 auto 1.5rem;
+    line-height: 1.7;
+  }
+
+  .green-divider {
+    width: 140px;
+    height: 4px;
+    background: var(--gradient-green-accent);
+    margin: 0 auto;
+    border-radius: 9999px;
+    box-shadow: 0 2px 15px rgba(16, 185, 129, 0.4);
+    animation: greenLineExpand 1.5s ease-out forwards;
+  }
+
+  @keyframes greenLineExpand {
+    from { width: 0; opacity: 0; }
+    to { width: 140px; opacity: 1; }
+  }
+
+  /* ========================================
+     IMPACT GRID CONTAINER
+     ======================================== */
+
+  .impact-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    opacity: 0;
+    transform: scale(0.95);
+    transition: opacity 0.35s ease, transform 0.35s ease;
+  }
+
+  .impact-grid-container.animate-in {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  /* ========================================
+     IMPACT CARDS
+     ======================================== */
+
+  .impact-card {
+    background: var(--white-pure);
+    border-radius: 1.5rem;
+    padding: 2rem;
+    box-shadow: 
+      0 10px 30px rgba(6, 78, 59, 0.15),
+      0 0 0 1px rgba(16, 185, 129, 0.1);
+    transition: all 0.25s ease;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.35s ease, transform 0.35s ease, box-shadow 0.25s ease;
+  }
+
+  .impact-card.animate-in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .impact-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 1.5rem;
+    background: var(--gradient-green-accent);
+    opacity: 0;
+    transition: opacity 0.25s ease;
+    z-index: 0;
+  }
+
+  .impact-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 
+      0 20px 50px rgba(6, 78, 59, 0.25),
+      0 0 40px rgba(16, 185, 129, 0.3),
+      0 0 0 1px var(--green-mint);
+  }
+
+  .impact-card:hover::before {
+    opacity: 0.05;
+  }
+
+  /* Card Glow Effect */
+  .card-glow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background: var(--gradient-green-radial);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.35s ease;
+    pointer-events: none;
+    filter: blur(20px);
+    z-index: -1;
+  }
+
+  .impact-card:hover .card-glow {
+    opacity: 1;
+  }
+
+  /* Card Content */
+  .card-content {
+    position: relative;
+    z-index: 1;
+  }
+
+  .card-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    display: block;
+    filter: drop-shadow(0 4px 12px rgba(16, 185, 129, 0.3));
+    animation: iconFloat 3s ease-in-out infinite;
+  }
+
+  @keyframes iconFloat {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
+  }
+
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--green-deep-forest);
+    margin-bottom: 1rem;
+    line-height: 1.3;
+  }
+
+  .card-description {
+    font-size: 0.875rem;
+    line-height: 1.7;
+    color: var(--gray-dark);
+    margin-bottom: 1.5rem;
+  }
+
+  /* Card Statistics */
+  .card-stat {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    padding-top: 1rem;
+    border-top: 2px solid var(--green-pale-mint);
+  }
+
+  .stat-value {
+    font-size: 2rem;
+    font-weight: 800;
+    background: var(--gradient-green-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 1;
+  }
+
+  .stat-unit {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--green-emerald);
+  }
+
+  .stat-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--green-deep-forest);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-left: auto;
+  }
+
+  /* ========================================
+     RESPONSIVE DESIGN
+     ======================================== */
+
+  @media (max-width: 768px) {
+    .impact-section {
+      padding: 3rem 1rem;
+    }
+    
+    .impact-title {
+      font-size: 2rem;
+    }
+    
+    .impact-subtitle {
+      font-size: 1rem;
+    }
+    
+    .impact-grid-container {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+    
+    .impact-card {
+      padding: 1.5rem;
+    }
+    
+    .card-title {
+      font-size: 1.125rem;
+    }
+    
+    .card-description {
+      font-size: 0.75rem;
+    }
+    
+    .stat-value {
+      font-size: 1.5rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .impact-grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .impact-grid-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  /* Animation delays for impact section */
+  [data-impact-delay="200"] { transition-delay: 200ms; }
+  [data-impact-delay="400"] { transition-delay: 400ms; }
+  [data-impact-delay="500"] { transition-delay: 500ms; }
+  [data-impact-delay="600"] { transition-delay: 600ms; }
+  [data-impact-delay="700"] { transition-delay: 700ms; }
+  [data-impact-delay="800"] { transition-delay: 800ms; }
+  [data-impact-delay="900"] { transition-delay: 900ms; }
+
+  /* Reduced motion preferences */
+  @media (prefers-reduced-motion: reduce) {
+    .card-icon,
+    .impact-title {
+      animation: none;
+    }
+    
+    .impact-title {
+      background-position: 0% 50%;
+    }
+    
+    .impact-card:hover {
+      transform: none;
+    }
+  }
+
+
+/* ========== STYLE BLOCK 4 ========== */
+/* ====== NOTRE UNIVERS – Styles scoppés ====== */
+
+  /* Conteneur de scope pour éviter les conflits */
+  .nu-vars {
+    /* Palette verte et noire */
+    --color-primary: #2f6b2f;
+    --color-secondary: #4a9d4a;
+    --color-accent: #00e676;
+    --color-dark: #0a0a0a;
+    --color-light: #ffffff;
+
+    --color-text-dark: #2f3230;
+    --color-text-light: #64748b;
+
+    --color-background: var(--bg);
+    --color-surface: var(--surface);
+
+    --gradient-primary: linear-gradient(135deg, #2f6b2f 0%, #4a9d4a 100%);
+    --gradient-secondary: linear-gradient(135deg, #00e676 0%, #2f6b2f 100%);
+    --gradient-overlay: linear-gradient(135deg, rgba(47, 107, 47, 0.95), rgba(74, 157, 74, 0.95));
+    --gradient-shimmer: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.3) 50%, transparent 100%);
+
+    --space-xs: 0.5rem;  /* 8px */
+    --space-sm: 1rem;    /* 16px */
+    --space-md: 1.5rem;  /* 24px */
+    --space-lg: 2rem;    /* 32px */
+    --space-xl: 3rem;    /* 48px */
+    --space-2xl: 4rem;   /* 64px */
+    --space-3xl: 6rem;   /* 96px */
+
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-base: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.25rem;
+    --font-size-2xl: 1.5rem;
+    --font-size-3xl: 2rem;
+    --font-size-4xl: 2.5rem;
+    --font-size-5xl: 3rem;
+
+    --radius-sm: 0.5rem;
+    --radius-md: 0.75rem;
+    --radius-lg: 1rem;
+    --radius-xl: 1.5rem;
+    --radius-full: 9999px;
+
+    --shadow-sm: 0 1px 2px 0 rgba(0,0,0,.05);
+    --shadow-md: 0 4px 6px -1px rgba(0,0,0,.1), 0 2px 4px -1px rgba(0,0,0,.06);
+    --shadow-lg: 0 10px 15px -3px rgba(0,0,0,.1), 0 4px 6px -2px rgba(0,0,0,.05);
+    --shadow-xl: 0 20px 25px -5px rgba(0,0,0,.1), 0 10px 10px -5px rgba(0,0,0,.04);
+    --shadow-2xl: 0 25px 50px -12px rgba(0,0,0,.25);
+    --shadow-glow: 0 0 20px rgba(47, 107, 47, 0.3);
+
+    --transition-fast: 150ms cubic-bezier(0.4,0,0.2,1);
+    --transition-base: 250ms cubic-bezier(0.4,0,0.2,1);
+    --transition-slow: 350ms cubic-bezier(0.4,0,0.2,1);
+    --transition-spring: 500ms cubic-bezier(0.34,1.56,0.64,1);
+
+    --z-base: 1;
+    --z-modal: 1000;
+  }
+
+  /* Typo locale minimale */
+  .nu-vars, .nu-vars * { box-sizing: border-box; }
+  .nu-vars { color: var(--color-text-dark); }
+
+  /* ====== Section / titres ====== */
+  .nu-vars .universe-section {
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+    z-index: var(--z-base);
+    padding: var(--space-2xl) var(--space-md);
+  }
+  .nu-vars .hero-title-container {
+    text-align: center;
+    margin-bottom: var(--space-2xl);
+    padding: 0 var(--space-md);
+  }
+  .nu-vars .hero-title {
+    font-size: var(--font-size-4xl);
+    font-weight: 800;
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: var(--space-sm);
+    letter-spacing: -0.02em;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity var(--transition-slow), transform var(--transition-slow);
+  }
+  .nu-vars .hero-title.animate-in { opacity: 1; transform: translateY(0); }
+  .nu-vars .hero-title::after {
+    content: '';
+    position: absolute;
+    bottom: -8px; left: 50%;
+    transform: translateX(-50%) scaleX(0);
+    width: 80%; height: 4px;
+    background: var(--gradient-secondary);
+    border-radius: var(--radius-full);
+    transition: transform var(--transition-spring) 200ms;
+  }
+  .nu-vars .hero-title.animate-in::after { transform: translateX(-50%) scaleX(1); }
+  .nu-vars .hero-subtitle {
+    font-size: var(--font-size-lg);
+    color: var(--color-text-light);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity var(--transition-slow) 100ms, transform var(--transition-slow) 100ms;
+  }
+  .nu-vars .hero-subtitle.animate-in { opacity: 1; transform: translateY(0); }
+
+  @media (min-width: 768px) {
+    .nu-vars .hero-title { font-size: var(--font-size-5xl); }
+    .nu-vars .hero-subtitle { font-size: var(--font-size-xl); }
+  }
+
+  /* ====== Grille ====== */
+  .nu-vars .nu-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+    padding: 0 var(--space-xs);
+  }
+  @media (min-width: 640px) {
+    .nu-vars .nu-grid { grid-template-columns: repeat(2,1fr); gap: var(--space-lg); }
+  }
+  @media (min-width: 1024px) {
+    .nu-vars .nu-grid { grid-template-columns: repeat(4,1fr); gap: var(--space-lg); }
+  }
+
+  /* ====== Cartes ====== */
+  .nu-vars .gallery-item {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity var(--transition-slow), transform var(--transition-slow);
+  }
+  .nu-vars .gallery-item.animate-in { opacity: 1; transform: translateY(0); }
+
+  .nu-vars .card-inner {
+    position: relative;
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+    background: var(--color-surface);
+    box-shadow: var(--shadow-lg);
+    cursor: pointer;
+    transition: transform var(--transition-base), box-shadow var(--transition-base);
+    height: 100%;
+  }
+  .nu-vars .card-inner::before {
+    content: '';
+    position: absolute; inset: 0;
+    border-radius: var(--radius-xl);
+    padding: 2px;
+    background: var(--gradient-primary);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor; mask-composite: exclude;
+    opacity: 0; transition: opacity var(--transition-base);
+    z-index: 1; pointer-events: none;
+  }
+  .nu-vars .gallery-item:hover .card-inner {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: var(--shadow-2xl), var(--shadow-glow);
+  }
+  .nu-vars .gallery-item:hover .card-inner::before { opacity: 1; }
+
+  .nu-vars .image-container {
+    position: relative; width: 100%; height: 280px; overflow: hidden;
+    background: var(--color-surface);
+  }
+  .nu-vars .image-shimmer {
+    position: absolute; top:0; left:-100%; width:100%; height:100%;
+    background: var(--gradient-shimmer); animation: nu-shimmer 2s infinite; z-index: 2;
+  }
+  @keyframes nu-shimmer { 0%{left:-100%} 100%{left:200%} }
+
+  .nu-vars .gallery-img {
+    width: 100%; height: 100%; object-fit: cover;
+    transition: transform var(--transition-slow), filter var(--transition-base);
+    will-change: transform;
+  }
+  .nu-vars .gallery-item:hover .gallery-img { transform: scale(1.1); filter: brightness(1.1); }
+  .nu-vars .gallery-img.loaded + .image-shimmer { display: none; }
+
+  .nu-vars .image-overlay {
+    position: absolute; inset: 0;
+    background: var(--gradient-overlay); opacity: 0;
+    transition: opacity var(--transition-base); z-index: 3;
+  }
+  .nu-vars .gallery-item:hover .image-overlay { opacity: 1; }
+
+  .nu-vars .gallery-overlay {
+    position: absolute; inset: 0;
+    display: flex; align-items: center; justify-content: center;
+    padding: var(--space-md); color: #fff; opacity: 0;
+    transition: opacity var(--transition-base); z-index: 4;
+  }
+  .nu-vars .gallery-item:hover .gallery-overlay { opacity: 1; }
+
+  .nu-vars .overlay-content { text-align: center; transform: translateY(20px); transition: transform var(--transition-spring); }
+  .nu-vars .gallery-item:hover .overlay-content { transform: translateY(0); }
+
+  .nu-vars .icon-wrapper {
+    width: 56px; height: 56px; margin: 0 auto var(--space-sm);
+    display: flex; align-items: center; justify-content: center;
+    background: rgba(255,255,255,.2); backdrop-filter: blur(10px);
+    border-radius: var(--radius-full);
+    border: 2px solid rgba(255,255,255,.3);
+    transform: scale(0); transition: transform var(--transition-spring) 50ms;
+  }
+  .nu-vars .gallery-item:hover .icon-wrapper { transform: scale(1); }
+
+  .nu-vars .gallery-title {
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    margin: 0 0 var(--space-xs) 0;
+    line-height: 1.3;
+    text-shadow: 0 2px 8px rgba(0,0,0,.3);
+  }
+  .nu-vars .gallery-excerpt {
+    font-size: var(--font-size-sm); font-weight: 400; margin: 0; opacity: .95; line-height: 1.5;
+    text-shadow: 0 1px 4px rgba(0,0,0,.3);
+  }
+
+  .nu-vars .ripple-container { position:absolute; inset:0; overflow:hidden; pointer-events:none; z-index:5; border-radius: var(--radius-xl); }
+  .nu-vars .ripple {
+    position:absolute; border-radius:50%; background: rgba(255,255,255,.5);
+    transform: scale(0); animation: nu-ripple 600ms ease-out; pointer-events:none;
+  }
+  @keyframes nu-ripple { to { transform: scale(4); opacity: 0; } }
+
+  @media (max-width: 639px) {
+    .nu-vars .image-container { height: 240px; }
+    .nu-vars .gallery-title { font-size: var(--font-size-lg); }
+    .nu-vars .gallery-excerpt { font-size: var(--font-size-xs); }
+    .nu-vars .icon-wrapper { width:48px; height:48px; }
+    .nu-vars .icon-wrapper svg { width:24px; height:24px; }
+  }
+
+  /* ====== Lightbox ====== */
+  .nu-vars #nu-lightbox {
+    position: fixed; inset: 0;
+    display: none; align-items: center; justify-content: center;
+    padding: var(--space-md); z-index: var(--z-modal);
+    opacity: 0; transition: opacity var(--transition-base);
+  }
+  .nu-vars #nu-lightbox.open { display: flex; animation: nu-fadeIn var(--transition-base) forwards; }
+  @keyframes nu-fadeIn { to { opacity: 1; } }
+
+  .nu-vars #nu-lightbox .lightbox-backdrop {
+    position: absolute; inset: 0;
+    background: rgba(15,23,42,.8);
+    backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+  }
+  .nu-vars #nu-lightbox .lightbox-content {
+    position: relative; width: 100%; max-width: 700px;
+    background: var(--color-background); border-radius: var(--radius-xl);
+    padding: var(--space-lg); box-shadow: var(--shadow-2xl);
+    transform: scale(.9) translateY(20px); transition: transform var(--transition-spring);
+    z-index: 1; max-height: 90vh; overflow: auto;
+  }
+  .nu-vars #nu-lightbox.open .lightbox-content { transform: scale(1) translateY(0); }
+
+  .nu-vars #nu-lightbox .lightbox-close {
+    position: absolute; top: var(--space-sm); right: var(--space-sm);
+    width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;
+    border: none; border-radius: var(--radius-full);
+    background: var(--color-text-dark); color: #fff;
+    font-size: var(--font-size-xl); line-height: 1;
+    transition: all var(--transition-fast); z-index: 2; cursor: pointer;
+  }
+  .nu-vars #nu-lightbox .lightbox-close:hover {
+    background: var(--color-primary); transform: rotate(90deg); box-shadow: var(--shadow-lg);
+  }
+
+  .nu-vars #nu-lightbox .lightbox-image-container {
+    width: 100%; margin-bottom: var(--space-md);
+    border-radius: var(--radius-lg); overflow: hidden; background: var(--color-surface);
+  }
+  .nu-vars #nu-lightbox .lightbox-img {
+    width: 100%; height: auto; max-height: 60vh; object-fit: contain;
+    transform: scale(.9); opacity: 0;
+    transition: transform var(--transition-spring), opacity var(--transition-base);
+  }
+  .nu-vars #nu-lightbox .lightbox-img.animate-in { transform: scale(1); opacity: 1; }
+
+  .nu-vars #nu-lightbox .lightbox-text-container {
+    position: relative; min-height: 80px; padding: var(--space-md);
+    background: var(--color-surface); border-radius: var(--radius-md); border-left: 4px solid var(--color-primary);
+  }
+  .nu-vars #nu-lightbox .lightbox-text { font-size: var(--font-size-base); line-height: 1.7; color: var(--color-text-dark); margin: 0; padding-right: var(--space-sm); }
+  .nu-vars #nu-lightbox .typing-cursor { display:inline-block; width:2px; height:1em; background: var(--color-primary); margin-left:2px; animation: nu-blink 1s infinite; vertical-align: middle; }
+  @keyframes nu-blink { 0%,49%{opacity:1} 50%,100%{opacity:0} }
+
+  /* Accessibilité utilitaire locale */
+  .nu-vars .sr-only { position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0; }
+
+  /* ====== Adaptations pour le mode sombre ====== */
+  html[data-theme="dark"] .nu-vars {
+    --color-text-dark: #f8fafc;
+    --color-text-light: #cbd5e1;
+    --color-background: #0a0a0a;
+    --color-surface: rgba(26,26,26,0.85);
+    
+    --gradient-primary: linear-gradient(135deg, #2f6b2f 0%, #4a9d4a 100%);
+    --gradient-overlay: linear-gradient(135deg, rgba(47, 107, 47, 0.8), rgba(74, 157, 74, 0.8));
+    
+    --shadow-glow: 0 0 20px rgba(47, 107, 47, 0.5);
+  }
+
+
+/* ========== STYLE BLOCK 5 ========== */
+/* ========================================
+           DESIGN SYSTEM & CSS VARIABLES - VERT & NOIR
+           ======================================== */
+        :root {
+            /* Green & Black Color Palette */
+            --color-primary: #059669;
+            --color-primary-dark: #047857;
+            --color-primary-light: #10b981;
+            --color-secondary: #065f46;
+            --color-accent: #10b981;
+            --color-text-dark: #0f172a;
+            --color-text-medium: #1e293b;
+            --color-text-light: #64748b;
+            --color-background: #ffffff;
+            --color-surface: #f8fafc;
+            
+            /* Gradient Colors - Green Theme */
+            --gradient-primary: linear-gradient(135deg, #065f46 0%, #059669 50%, #10b981 100%);
+            --gradient-secondary: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            
+            /* Spacing (8px grid) */
+            --space-xs: 0.5rem;   /* 8px */
+            --space-sm: 1rem;     /* 16px */
+            --space-md: 1.5rem;   /* 24px */
+            --space-lg: 2rem;     /* 32px */
+            --space-xl: 3rem;     /* 48px */
+            --space-2xl: 4rem;    /* 64px */
+            --space-3xl: 6rem;    /* 96px */
+            
+            /* Typography */
+            --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            --font-size-xs: 0.75rem;   /* 12px */
+            --font-size-sm: 0.875rem;  /* 14px */
+            --font-size-base: 1rem;    /* 16px */
+            --font-size-lg: 1.125rem;  /* 18px */
+            --font-size-xl: 1.25rem;   /* 20px */
+            --font-size-2xl: 1.5rem;   /* 24px */
+            --font-size-3xl: 2rem;     /* 32px */
+            --font-size-4xl: 2.5rem;   /* 40px */
+            --font-size-5xl: 3rem;     /* 48px */
+            
+            /* Border Radius */
+            --radius-sm: 0.5rem;   /* 8px */
+            --radius-md: 0.75rem;  /* 12px */
+            --radius-lg: 1rem;     /* 16px */
+            --radius-xl: 1.5rem;   /* 24px */
+            --radius-full: 9999px;
+            
+            /* Shadows - Green Theme */
+            --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            
+            /* Transitions */
+            --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+            --transition-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            --transition-slow: 350ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        /* ========================================
+           RESET & BASE STYLES
+           ======================================== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        body {
+            font-family: var(--font-family);
+            font-size: var(--font-size-base);
+            line-height: 1.6;
+            color: var(--color-text-dark);
+            background-color: var(--color-background);
+            overflow-x: hidden;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* ========================================
+           NOTRE ENGAGEMENT SECTION - VERT & NOIR
+           ======================================== */
+        .engagement-section {
+            max-width: 1400px;
+            padding: var(--space-2xl) var(--space-md);
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* ========================================
+           SECTION HEADER
+           ======================================== */
+        .engagement-header {
+            text-align: center;
+            margin-bottom: var(--space-2xl);
+            opacity: 0;
+            transform: translateY(40px);
+            transition: opacity var(--transition-slow), transform var(--transition-slow);
+        }
+
+        .engagement-header.animate-in {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .engagement-title {
+            font-size: var(--font-size-4xl);
+            font-weight: 800;
+            background: var(--gradient-primary);
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: var(--space-md);
+            letter-spacing: -0.02em;
+            animation: gradientShift 6s ease infinite;
+        }
+
+        @keyframes gradientShift {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+
+        .engagement-subtitle {
+            font-size: var(--font-size-xl);
+            color: var(--color-text-medium);
+            font-weight: 500;
+            max-width: 800px;
+            margin: 0 auto var(--space-md);
+            line-height: 1.6;
+        }
+
+        .header-decorative-line {
+            width: 120px;
+            height: 4px;
+            background: var(--gradient-secondary);
+            margin: 0 auto;
+            border-radius: var(--radius-full);
+            animation: lineExpand 2s ease-out forwards;
+        }
+
+        @keyframes lineExpand {
+            from { width: 0; opacity: 0; }
+            to { width: 120px; opacity: 1; }
+        }
+
+        /* ========================================
+           CONTENT BLOCKS - ALTERNATING LAYOUT
+           ======================================== */
+        .content-blocks {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-2xl);
+        }
+
+        .content-block {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: var(--space-xl);
+            align-items: center;
+            opacity: 0;
+            transition: opacity var(--transition-slow), transform var(--transition-slow);
+        }
+
+        .content-block.animate-in {
+            opacity: 1;
+            transform: translateX(0) !important;
+        }
+
+        .block-left {
+            transform: translateX(-60px);
+        }
+
+        .block-right {
+            transform: translateX(60px);
+        }
+
+        @media (min-width: 768px) {
+            .content-block {
+                grid-template-columns: repeat(2, 1fr);
+                gap: var(--space-2xl);
+            }
+            
+            .block-right .content-image {
+                order: -1;
+            }
+        }
+
+        /* ========================================
+           CONTENT TEXT
+           ======================================== */
+        .content-text {
+            position: relative;
+            padding: var(--space-lg);
+        }
+
+        .block-title {
+            font-size: var(--font-size-3xl);
+            font-weight: 700;
+            color: var(--color-text-dark);
+            margin-bottom: var(--space-md);
+            line-height: 1.2;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .block-title::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+            width: 60px;
+            height: 4px;
+            background: var(--gradient-secondary);
+            border-radius: var(--radius-full);
+        }
+
+        .block-description {
+            font-size: var(--font-size-lg);
+            line-height: 1.8;
+            color: var(--color-text-medium);
+            margin-bottom: var(--space-md);
+        }
+
+        .block-description p {
+            margin-bottom: var(--space-md);
+        }
+
+        .block-description p:last-child {
+            margin-bottom: 0;
+        }
+
+        .block-badge {
+            display: inline-block;
+            padding: var(--space-xs) var(--space-md);
+            background: linear-gradient(135deg, rgba(5, 150, 105, 0.1), rgba(16, 185, 129, 0.1));
+            border: 1px solid rgba(5, 150, 105, 0.2);
+            border-radius: var(--radius-full);
+            font-size: var(--font-size-sm);
+            font-weight: 600;
+            color: var(--color-primary-dark);
+            margin-top: var(--space-sm);
+        }
+
+        /* ========================================
+           CONTENT IMAGES - BLOB MASK
+           ======================================== */
+        .content-image {
+            position: relative;
+            width: 100%;
+            aspect-ratio: 4 / 3;
+        }
+
+        .image-blob-mask {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            border-radius: var(--radius-xl);
+            overflow: hidden;
+            box-shadow: var(--shadow-xl);
+        }
+
+        .image-blob-mask img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* ========================================
+           RESPONSIVE ADJUSTMENTS - ENGAGEMENT
+           ======================================== */
+        @media (max-width: 767px) {
+            .engagement-section {
+                padding: var(--space) var(--space-md);
+            }
+            
+            .engagement-title {
+                font-size: var(--font-size-3xl);
+            }
+            
+            .engagement-subtitle {
+                font-size: var(--font-size-base);
+            }
+            
+            .content-blocks {
+                gap: var(--space-2xl);
+            }
+            
+            .content-text {
+                padding: var(--space-md);
+            }
+            
+            .block-title {
+                font-size: var(--font-size-2xl);
+            }
+            
+            .block-description {
+                font-size: var(--font-size-base);
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .engagement-section {
+                padding: var(--space-3xl) var(--space-2xl);
+            }
+        }
+
+        /* Animation delays for staggered entrance */
+        [data-engage-delay="100"] { transition-delay: 100ms; }
+        [data-engage-delay="200"] { transition-delay: 200ms; }
+        [data-engage-delay="300"] { transition-delay: 300ms; }
+        [data-engage-delay="400"] { transition-delay: 400ms; }
+
+        /* ====== Adaptations pour le mode sombre ====== */
+        html[data-theme="dark"] .engagement-section {
+            --color-text-dark: #f8fafc;
+            --color-text-medium: #cbd5e1;
+            --color-background: #0a0a0a;
+            --color-surface: rgba(26,26,26,0.85);
+        }
+
+
+/* ========== STYLE BLOCK 6 ========== */
+/* Design System - variables utilisées par la navbar */
+    :root {
+      --color-white: #fff;
+      --brand: #58b840;
+      --brand-rgb: 88, 184, 64;
+
+      --color-cream-50: #fcfcf9;
+      --color-cream-100: #fffffd;
+      --color-slate-500: #626c71;
+      --color-slate-900: #13343b;
+      --color-brown-600-rgb: 94, 82, 64;
+
+      --color-background: var(--color-cream-50);
+      --color-surface: var(--color-cream-100);
+      --color-text: var(--color-slate-900);
+      --color-text-secondary: var(--color-slate-500);
+      --color-primary: var(--brand);
+
+      --nav-surface: rgba(255, 255, 255, 0.85);
+      --nav-border: rgba(var(--brand-rgb), 0.28);
+      --nav-chip: rgba(0, 0, 0, 0.04);
+
+      --radius-full: 9999px;
+      --radius-2xl: 20px;
+
+      --font-family-base: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      --font-size-sm: 12px;
+
+      --duration-fast: 150ms;
+      --duration-normal: 250ms;
+      --ease-standard: cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --color-background: #1f2121;
+        --color-surface: #262828;
+        --color-text: #f5f5f5;
+        --color-text-secondary: rgba(245, 245, 245, 0.7);
+        --nav-surface: rgba(26, 26, 26, 0.85);
+        --nav-border: rgba(var(--brand-rgb), 0.35);
+        --nav-chip: rgba(255, 255, 255, 0.06);
+      }
+    }
+
+    [data-theme="dark"] {
+      --color-background: #1f2121;
+      --color-surface: #262828;
+      --color-text: #f5f5f5;
+      --color-text-secondary: rgba(245, 245, 245, 0.7);
+      --nav-surface: rgba(26, 26, 26, 0.85);
+      --nav-border: rgba(var(--brand-rgb), 0.35);
+      --nav-chip: rgba(255, 255, 255, 0.06);
+    }
+
+    [data-theme="light"] {
+      --color-background: var(--color-cream-50);
+      --color-surface: var(--color-cream-100);
+      --color-text: var(--color-slate-900);
+      --color-text-secondary: var(--color-slate-500);
+      --nav-surface: rgba(255, 255, 255, 0.85);
+      --nav-border: rgba(var(--brand-rgb), 0.28);
+      --nav-chip: rgba(0, 0, 0, 0.04);
+    }
+
+    body { padding-top: var(--nav-h, 72px); }
+
+    /* Navigation Bar */
+    .nav { position: fixed; inset: 0 0 auto 0; z-index: 1000; font-family: var(--font-family-base); }
+    .nav__bar {
+      display: flex; align-items: center; justify-content: space-between; gap: .75rem;
+      padding: .75rem clamp(16px, 4vw, 32px);
+      background: var(--nav-surface);
+      backdrop-filter: saturate(120%) blur(16px);
+      -webkit-backdrop-filter: saturate(120%) blur(16px);
+      border-bottom: 1px solid var(--nav-border);
+      box-shadow: 0 12px 28px -8px rgba(0,0,0,.18);
+      transition: all var(--duration-normal) var(--ease-standard);
+    }
+
+    .brand { display: flex; align-items: center; gap: .6rem; text-decoration: none; color: inherit; }
+    .brand__logo-wrap {
+      width: 42px; height: 42px; display: grid; place-items: center;
+      border-radius: var(--radius-full); background: var(--nav-chip); border: 1px solid var(--nav-border); overflow: hidden;
+    }
+    .brand__logo { width: 28px; height: 28px; object-fit: contain; }
+    .brand__name { font-weight: 800; letter-spacing: .2px; font-size: 14px; }
+
+    .nav__menu { display: flex; align-items: center; gap: .25rem; list-style: none; }
+    .nav__item { position: relative; }
+
+    .nav__btn, .nav__link {
+      display: flex; align-items: center; gap: .35rem;
+      padding: .55rem .7rem; border-radius: .65rem; border: 1px solid transparent;
+      background: var(--nav-chip); color: var(--color-text); text-decoration: none;
+      font-weight: 600; font-size: var(--font-size-sm); transition: all var(--duration-fast) var(--ease-standard);
+      cursor: pointer;
+    }
+    .nav__btn:hover, .nav__link:hover {
+      transform: translateY(-2px);
+      border-color: var(--nav-border);
+      background: var(--color-primary);
+      color: var(--color-white);
+    }
+    .nav__link--cta { background: var(--color-primary); color: var(--color-white); font-weight: 700; }
+    .nav__link--cta:hover { filter: brightness(.95); }
+
+    .dropdown {
+      position: absolute; left: 0; top: calc(100% + 10px); min-width: 260px;
+      background: var(--color-surface); border: 1px solid var(--nav-border);
+      border-radius: var(--radius-2xl);
+      box-shadow: 0 24px 48px -12px rgba(0,0,0,.25);
+      opacity: 0; transform: translateY(-6px); pointer-events: none;
+      transition: all var(--duration-fast) var(--ease-standard); padding: .5rem;
+    }
+    .nav__item[aria-expanded="true"] > .dropdown { opacity: 1; transform: translateY(0); pointer-events: auto; }
+
+    .dropdown a {
+      display: flex; gap: .6rem; align-items: center; padding: .6rem .7rem;
+      border-radius: .6rem; color: var(--color-text); text-decoration: none;
+      transition: all var(--duration-fast) var(--ease-standard);
+    }
+    .dropdown a:hover { background: rgba(var(--brand-rgb), .12); color: var(--color-primary); transform: translateX(4px); }
+    .dropdown-icon { font-size: 1.2em; }
+    .dropdown-content { display: flex; flex-direction: column; }
+    .dropdown-title { font-weight: 700; font-size: var(--font-size-sm); }
+    .dropdown-desc { font-size: 11px; color: var(--color-text-secondary); }
+
+    .nav__tools { display: flex; align-items: center; gap: .5rem; }
+    .theme-toggle {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 36px; height: 36px; border-radius: var(--radius-full);
+      border: 1px solid var(--nav-border); background: var(--nav-chip);
+      cursor: pointer; transition: all var(--duration-fast) var(--ease-standard);
+    }
+    .theme-toggle:hover { background: var(--color-primary); border-color: var(--color-primary); transform: rotate(180deg); }
+    .theme-toggle svg { width: 18px; height: 18px; }
+
+    .burger {
+      display: none; flex-direction: column; align-items: center; justify-content: center;
+      padding: .5rem; border-radius: .6rem; border: 1px solid var(--nav-border);
+      background: var(--nav-chip); cursor: pointer; gap: 5px;
+    }
+    .burger span { display: block; width: 22px; height: 2px; background: currentColor; transition: all var(--duration-fast) var(--ease-standard); }
+
+    /* Mobile Panel */
+    .panel {
+      position: fixed; inset: 0; z-index: 950; background: var(--color-background);
+      backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px);
+      display: grid; grid-template-rows: auto 1fr auto;
+      padding: calc(var(--nav-h, 72px) + 20px) 20px 20px;
+      opacity: 0; pointer-events: none; transition: opacity var(--duration-normal) var(--ease-standard);
+      overflow-y: auto;
+    }
+    .panel--open { opacity: 1; pointer-events: auto; }
+    .panel__section { border: 1px solid var(--nav-border); border-radius: var(--radius-2xl); background: var(--color-surface); overflow: hidden; margin-bottom: .5rem; }
+    .panel__trigger {
+      width: 100%; display: flex; justify-content: space-between; align-items: center; gap: .5rem;
+      padding: 14px; border: 0; background: none; color: var(--color-text); font-weight: 800; font-size: 14px; cursor: pointer;
+    }
+    .panel__content { max-height: 0; overflow: hidden; transition: max-height var(--duration-normal) var(--ease-standard); }
+    .panel__section[aria-expanded="true"] .panel__content { max-height: 520px; }
+    .panel__content a {
+      display: flex; gap: .6rem; align-items: center; padding: .8rem 1rem; color: var(--color-text);
+      text-decoration: none; border-top: 1px solid rgba(94,82,64,.12); transition: background var(--duration-fast) var(--ease-standard);
+    }
+    .panel__content a:hover { background: rgba(var(--brand-rgb), .08); }
+
+    /* Responsive */
+    @media (max-width: 960px) {
+      .nav__menu { display: none; }
+      .burger { display: inline-flex; }
+    }
+
+
+/* ========== STYLE BLOCK 7 ========== */
+.footer-greenblack {
+      /* Dégradé vert -> noir basé sur la charte */
+      background: linear-gradient(135deg, var(--brand, #2f6b2f) 0%, #0a0a0a 100%);
+      color: #f4f8f6;
+      font-family: system-ui, sans-serif;
+      border-top: 2px solid rgba(255,255,255,0.1);
+    }
+    .footer-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    /* Haut : logo + liens */
+    .footer-top {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+    }
+    .footer-brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .footer-brand .brand-logo {
+      width: 38px;
+      height: 38px;
+      object-fit: contain;
+      border-radius: 6px;
+    }
+    .brand-name {
+      font-size: 1.2rem;
+      font-weight: 700;
+      letter-spacing: .5px;
+    }
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 18px;
+    }
+    .footer-links a {
+      color: #e3f8e8;
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: color 0.2s ease;
+    }
+    .footer-links a:hover { color: #fff; }
+    /* Bas : réseaux + légende */
+    .footer-bottom {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      border-top: 1px solid rgba(255,255,255,0.15);
+      padding-top: 10px;
+    }
+    .social { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+    .social a {
+      display: inline-grid;
+      place-items: center;
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.12);
+      transition: background 0.2s ease, transform 0.2s ease;
+    }
+    .social a:hover { background: rgba(255,255,255,0.3); transform: translateY(-2px); }
+    .social svg { width: 18px; height: 18px; fill: white; }
+    .footer-bottom small { color: #d8e8d9; font-size: 0.85rem; }
+    /* Responsive */
+    @media (max-width: 600px) {
+      .footer-links { justify-content: center; }
+      .footer-top { flex-direction: column; text-align: center; }
+    }
+     </style>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- External Scripts -->
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <!-- ====== Barre de navigation (HTML + CSS + JS) ====== -->
+    <nav class="nav">
+      <div class="nav__bar">
+        <a href="accueil.html" class="brand">
+          <div class="brand__logo-wrap">
+            <img src="images/logo principal.png" alt="" class="brand__logo">
+          </div>
+          <span class="brand__name">ALLIANCE SYNERGIE SANTÉ</span>
+        </a>
+        <ul class="nav__menu">
+          <li class="nav__item">
+            <button class="nav__btn" aria-expanded="false">
+              <span>Entreprise</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="dropdown">
+              <a href="pages/mot-president.html">
+                <span class="dropdown-icon">👤</span>
+                <div class="dropdown-content">
+                  <div class="dropdown-title">Mot du président</div>
+                  <div class="dropdown-desc">Notre vision et engagement</div>
+                </div>
+              </a>
+              <a href="pages/historique.html">
+                <span class="dropdown-icon">🕘</span>
+                <div class="dropdown-content">
+                  <div class="dropdown-title">Historique</div>
+                  <div class="dropdown-desc">Notre parcours</div>
+                </div>
+              </a>
+              <a href="pages/organigrame.html">
+                <span class="dropdown-icon">🗂️</span>
+                <div class="dropdown-content">
+                  <div class="dropdown-title">Organigramme</div>
+                  <div class="dropdown-desc">Structure organisationnelle</div>
+                </div>
+              </a>
+              <a href="pages/chaine-de-valeurs.html">
+                <span class="dropdown-icon">🔗</span>
+                <div class="dropdown-content">
+                  <div class="dropdown-title">Chaîne de valeurs</div>
+                  <div class="dropdown-desc">Notre écosystème</div>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="nav__item">
+            <button class="nav__btn" aria-expanded="false">
+              <span>Stratégie</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="dropdown">
+              <a href="pages/vision-afrique.html">
+                <span class="dropdown-icon">🌍</span>
+                <div class="dropdown-content">
+                  <div class="dropdown-title">Vision pour l'Afrique</div>
+                  <div class="dropdown-desc">Notre stratégie</div>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="nav__item">
+            <button class="nav__btn" aria-expanded="false">
+              <span>Gammes</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="dropdown">
+              <a href="pages/marque-propre-A2S.html">
+                <span class="dropdown-icon">⭐</span>
+                <div class="dropdown-content">
+                  <div class="dropdown-title">Marque propre A2S</div>
+                  <div class="dropdown-desc">Nos créations</div>
+                </div>
+              </a>
+              <a href="pages/marque-partenaire.html">
+                <span class="dropdown-icon">🤝</span>
+                <div class="dropdown-content">
+                  <div class="dropdown-title">Marques partenaires</div>
+                  <div class="dropdown-desc">Nos partenaires</div>
+                </div>
+              </a>
+            </div>
+          </li>
+          <!-- NOUVEAU : Partenariats (avant Médias) -->
+          <li class="nav__item">
+            <button class="nav__btn" aria-expanded="false">
+              <span>Partenariats</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="dropdown">
+              <a href="pages/ambassadeur.html">
+                <span class="dropdown-icon">🏅</span>
+                <div class="dropdown-content">
+                  <div class="dropdown-title">Ambassadeur</div>
+                  <div class="dropdown-desc">Rejoindre le programme</div>
+                </div>
+              </a>
+              <a href="pages/espace-pro.html">
+                <span class="dropdown-icon">🧩</span>
+                <div class="dropdown-content">
+                  <div class="dropdown-title">Espace Pro</div>
+                  <div class="dropdown-desc">Ressources partenaires</div>
+                </div>
+              </a>
+            </div>
+          </li>
+          <!-- /NOUVEAU -->
+          <li class="nav__item">
+            <a href="pages/mediatheque.html" class="nav__link">Médiathèque</a>
+          </li>
+          <li class="nav__item">
+            <a href="pages/carrieres.html" class="nav__link">Carrières</a>
+          </li>
+          <li class="nav__item">
+            <a href="pages/contact.html" class="nav__link nav__link--cta">Contact</a>
+          </li>
+        </ul>
+        <div class="nav__tools">
+          <button id="burger" class="burger" aria-label="Menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- Mobile Panel -->
+    <div id="panel" class="panel" hidden>
+      <div>
+        <div class="panel__section" aria-expanded="false">
+          <button class="panel__trigger">
+            <span>Entreprise</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+          <div class="panel__content">
+            <a href="pages/mot-president.html">
+              <span class="dropdown-icon">👤</span>
+              <div class="dropdown-content">
+                <div class="dropdown-title">Mot du président</div>
+                <div class="dropdown-desc">Notre vision et engagement</div>
+              </div>
+            </a>
+            <a href="pages/historique.html">
+              <span class="dropdown-icon">🕘</span>
+              <div class="dropdown-content">
+                <div class="dropdown-title">Historique</div>
+                <div class="dropdown-desc">Notre parcours</div>
+              </div>
+            </a>
+            <a href="pages/organigrame.html">
+              <span class="dropdown-icon">🗂️</span>
+              <div class="dropdown-content">
+                <div class="dropdown-title">Organigramme</div>
+                <div class="dropdown-desc">Structure organisationnelle</div>
+              </div>
+            </a>
+            <a href="pages/chaine-de-valeurs.html">
+              <span class="dropdown-icon">🔗</span>
+              <div class="dropdown-content">
+                <div class="dropdown-title">Chaîne de valeurs</div>
+                <div class="dropdown-desc">Notre écosystème</div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="panel__section" aria-expanded="false">
+          <button class="panel__trigger">
+            <span>Stratégie</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+          <div class="panel__content">
+            <a href="pages/vision-afrique.html">
+              <span class="dropdown-icon">🌍</span>
+              <div class="dropdown-content">
+                <div class="dropdown-title">Vision pour l'Afrique</div>
+                <div class="dropdown-desc">Notre stratégie</div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="panel__section" aria-expanded="false">
+          <button class="panel__trigger">
+            <span>Gammes</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+          <div class="panel__content">
+            <a href="pages/marque-propre-A2S.html">
+              <span class="dropdown-icon">⭐</span>
+              <div class="dropdown-content">
+                <div class="dropdown-title">Marque propre A2S</div>
+                <div class="dropdown-desc">Nos créations</div>
+              </div>
+            </a>
+            <a href="pages/marque-partenaire.html">
+              <span class="dropdown-icon">🤝</span>
+              <div class="dropdown-content">
+                <div class="dropdown-title">Marques partenaires</div>
+                <div class="dropdown-desc">Nos partenaires</div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- NOUVEAU : Section Partenariats AVANT Médias -->
+        <div class="panel__section" aria-expanded="false">
+          <button class="panel__trigger">
+            <span>Partenariats</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+          <div class="panel__content">
+            <a href="pages/ambassadeur.html">
+              <span class="dropdown-icon">🏅</span>
+              <div class="dropdown-content">
+                <div class="dropdown-title">Ambassadeur</div>
+                <div class="dropdown-desc">Rejoindre le programme</div>
+              </div>
+            </a>
+            <a href="pages/espace-pro.html">
+              <span class="dropdown-icon">🧩</span>
+              <div class="dropdown-content">
+                <div class="dropdown-title">Espace Pro</div>
+                <div class="dropdown-desc">Ressources partenaires</div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- /NOUVEAU -->
+        <a href="pages/mediatheque.html" class="panel__section" style="display:flex;align-items:center;padding:14px;text-decoration:none;color:inherit;font-weight:800;">
+          <span>Médiathèque</span>
+        </a>
+        <a href="pages/carrieres.html" class="panel__section" style="display:flex;align-items:center;padding:14px;text-decoration:none;color:inherit;font-weight:800;">
+          <span>Carrières</span>
+        </a>
+        <a href="pages/contact.html" class="panel__section" style="display:flex;align-items:center;padding:14px;text-decoration:none;color:inherit;font-weight:800;background:var(--color-primary);color:white;border-color:var(--color-primary);">
+          <span>Contact</span>
+        </a>
+      </div>
+    </div>
+    <!-- ============================ HERO ============================ -->
+    <section class="hero" aria-label="Section de mise en avant">
+      <div class="hero__fx-aurora" aria-hidden="true"></div>
+      <div class="hero__fx-shine" aria-hidden="true"></div>
+      <div>
+        <div class="hero__brand">
+          <img src="images/A2S Logo 2.png" alt="Logo officiel" loading="lazy" />
+          <strong>ALLIANCE SYNERGIE SANTÉ</strong>
+        </div>
+        <h1 class="hero__title">La beauté au rythme de la nature</h1>
+        <p class="hero__lead">Nous croyons qu'aimer sa peau, c'est aussi aimer la planète. Nos soins allient innovation, ingrédients naturels et éco-conception, pour sublimer votre beauté sans compromis.</p>
+      </div>
+      <!-- 3D Orbit Animation -->
+      <div class="orbit" aria-label="Gammes en orbite">
+        <div class="orbit__core" aria-hidden="true">
+          <img src="images/A2S Logo 1.png" alt="" aria-hidden="true">
+        </div>
+        <!-- Inner orbit for D-WHITE and D-CAP -->
+        <div class="orbit__ring orbit__ring--inner" aria-hidden="true">
+          <span class="chip chip--main chip--dwhite">
+            <img src="images/1.png" alt="" aria-hidden="true">D-WHITE </span>
+          <span class="chip chip--main chip--dcap">
+            <img src="images/11.png" alt="" aria-hidden="true">D-CAP </span>
+        </div>
+        <!-- Outer orbit for other products -->
+        <div class="orbit__ring orbit__ring--outer" aria-hidden="true">
+          <span class="chip">
+            <img src="images/2.png" alt="" aria-hidden="true">BuccoTherm </span>
+          <span class="chip">
+            <img src="images/3.png" alt="" aria-hidden="true">Casmara </span>
+          <span class="chip">
+            <img src="images/4.png" alt="" aria-hidden="true">Cumlaude </span>
+          <span class="chip">
+            <img src="images/5.png" alt="" aria-hidden="true">Castera </span>
+          <span class="chip">
+            <img src="images/6.png" alt="" aria-hidden="true">Florame </span>
+          <span class="chip">
+            <img src="images/7.png" alt="" aria-hidden="true">Elcea </span>
+          <span class="chip">
+            <img src="images/9.png" alt="" aria-hidden="true">Babé </span>
+          <span class="chip">
+            <img src="images/10.png" alt="" aria-hidden="true">Sensilis </span>
+        </div>
+      </div>
+    </section>
+    <!-- ============================ CONTENU PRINCIPAL ============================ -->
+    <main class="container" id="contenu">
+      <!-- Section d'introduction -->
+      <section class="section">
+        <h2 class="section__title">Votre partenaire en dermo-cosmétique au Maroc</h2>
+        <p class="section__intro">Depuis 15 ans, A2S accompagne les professionnels de la santé et de la beauté avec des solutions certifiées, innovantes et respectueuses de l'environnement.</p>
+        <p class="section__intro">Nous sommes fiers de contribuer au bien-être de milliers de clients à travers tout le Maroc.</p>
+        <!-- ====== Notre Univers (bloc autonome & scoping safe) ====== -->
+        <div class="nu-vars" data-nu>
+          <!-- SECTION : Notre Univers -->
+          <section id="galerie" class="universe-section">
+            <!-- Titre + sous-titre -->
+            <div class="hero-title-container impact-header" data-impact-animate="fade-up">
+              <h1 class="hero-title impact-title" data-animate="fade-up">Notre Univers</h1>
+              <div class="hero-subtitle impact-subtitle" data-animate="fade-up" data-delay="100"> Découvrez l'excellence de la santé &amp; beauté </div>
+              <div class="green-divider"></div>
+            </div>
+            <!-- Grille des cartes -->
+            <div class="nu-grid">
+              <!-- Carte 1 -->
+              <article class="gallery-item" data-animate="fade-up" data-delay="0">
+                <div class="card-inner">
+                  <div class="image-container">
+                    <div class="image-shimmer"></div>
+                    <img src="images/expertise.png" alt="L'expertise santé &amp; beauté" class="gallery-img" loading="lazy">
+                    <div class="image-overlay"></div>
+                  </div>
+                  <div class="gallery-overlay">
+                    <div class="overlay-content">
+                      <div class="icon-wrapper" aria-hidden="true">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                          <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                          <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                        </svg>
+                      </div>
+                      <h3 class="gallery-title">L'expertise santé &amp; beauté</h3>
+                      <p class="gallery-excerpt">Diagnostic complet et accompagnement professionnel</p>
+                    </div>
+                  </div>
+                  <div class="ripple-container" aria-hidden="true"></div>
+                </div>
+                <div class="card-description" data-lightbox-text="Alliance Synergie Santé est spécialisée dans les soins de la peau avec une démarche complète : diagnostic capillaire, diagnostic de teinte, recommandations personnalisées et accompagnement des professionnels (dermatologues, médecins esthétiques). Toute la chaîne, de la conception à la livraison en pharmacie, est gérée en interne pour garantir l'innovation et la qualité à chaque étape."></div>
+              </article>
+              <!-- Carte 2 -->
+              <article class="gallery-item" data-animate="fade-up" data-delay="100">
+                <div class="card-inner">
+                  <div class="image-container">
+                    <div class="image-shimmer"></div>
+                    <img src="images/partenariat.png" alt="Nos marques partenaires innovantes" class="gallery-img" loading="lazy">
+                    <div class="image-overlay"></div>
+                  </div>
+                  <div class="gallery-overlay">
+                    <div class="overlay-content">
+                      <div class="icon-wrapper" aria-hidden="true">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                          <circle cx="12" cy="12" r="10"></circle>
+                          <path d="M12 6v6l4 2"></path>
+                        </svg>
+                      </div>
+                      <h3 class="gallery-title">Nos marques partenaires innovantes</h3>
+                      <p class="gallery-excerpt">Sélection d'experts reconnus pour leur efficacité</p>
+                    </div>
+                  </div>
+                  <div class="ripple-container" aria-hidden="true"></div>
+                </div>
+                <div class="card-description" data-lightbox-text="L'univers rassemble une sélection de marques expertes reconnues pour leur efficacité : soins dermo-cosmétiques, hygiène intime, solutions capillaires, produits bucco-dentaires et bien plus (BABÉ, Sensilis, Cumlaude, Dwhite, Florame, Onagrine, Elcéa, Casmara, BuccoTherm, Castera, DCAP, etc.). Chaque marque propose des gammes adaptées à des besoins précis, pour tous types de peaux et tous âges."></div>
+              </article>
+              <!-- Carte 3 -->
+              <article class="gallery-item" data-animate="fade-up" data-delay="200">
+                <div class="card-inner">
+                  <div class="image-container">
+                    <div class="image-shimmer"></div>
+                    <img src="images/engagement.png" alt="L'éthique &amp; l'engagement responsable" class="gallery-img" loading="lazy">
+                    <div class="image-overlay"></div>
+                  </div>
+                  <div class="gallery-overlay">
+                    <div class="overlay-content">
+                      <div class="icon-wrapper" aria-hidden="true">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                          <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                          <path d="M2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                        </svg>
+                      </div>
+                      <h3 class="gallery-title">L'éthique &amp; l'engagement responsable</h3>
+                      <p class="gallery-excerpt">Respect de l'environnement et transparence totale</p>
+                    </div>
+                  </div>
+                  <div class="ripple-container" aria-hidden="true"></div>
+                </div>
+                <div class="card-description" data-lightbox-text="L'entreprise met en avant des valeurs fortes : respect de l'environnement, sécurité des formules, responsabilité sociale et inclusion. Une attention particulière est portée à la transparence, à l'origine des ingrédients et à l'accompagnement écologique tout au long du cycle de vie des produits."></div>
+              </article>
+              <!-- Carte 4 -->
+              <article class="gallery-item" data-animate="fade-up" data-delay="300">
+                <div class="card-inner">
+                  <div class="image-container">
+                    <div class="image-shimmer"></div>
+                    <img src="images/experience.jpg" alt="Expériences &amp; conseils personnalisés" class="gallery-img" loading="lazy">
+                    <div class="image-overlay"></div>
+                  </div>
+                  <div class="gallery-overlay">
+                    <div class="overlay-content">
+                      <div class="icon-wrapper" aria-hidden="true">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                          <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                      </div>
+                      <h3 class="gallery-title">Expériences &amp; conseils personnalisés</h3>
+                      <p class="gallery-excerpt">Accompagnement sur-mesure par nos experts</p>
+                    </div>
+                  </div>
+                  <div class="ripple-container" aria-hidden="true"></div>
+                </div>
+                <div class="card-description" data-lightbox-text="Chez Alliance Synergie Santé, le client bénéficie d'une expérience sur-mesure : diagnostic, conseils individualisés, suivi, espace d'informations et d'actualités, campagnes de prévention, événements de formation et interactivité avec une équipe d'experts en santé et beauté. Des supports et outils digitaux accompagnent et facilitent le parcours de soin ou d'achat."></div>
+              </article>
+            </div>
+          </section>
+          <!-- LIGHTBOX (nécessaire pour l'ouverture d'images) -->
+          <div id="nu-lightbox" role="dialog" aria-modal="true" aria-label="Visionneuse d'image" aria-hidden="true">
+            <div class="lightbox-backdrop"></div>
+            <div class="lightbox-content" role="document">
+              <button class="lightbox-close" aria-label="Fermer la visionneuse" type="button">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="18" y1="6" x2="6" y2="18"></line>
+                  <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+              </button>
+              <div class="lightbox-image-container">
+                <img class="lightbox-img" src="" alt="Image agrandie">
+              </div>
+              <div class="lightbox-text-container">
+                <p class="lightbox-text" aria-live="polite"></p>
+                <span class="typing-cursor" aria-hidden="true">|</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ====== /Notre Univers ====== -->
+        <!-- ========================================           SECTION : NOTRE ENGAGEMENT - VERT & NOIR           ======================================== -->
+        <section id="engagement" class="engagement-section">
+          <!-- Section Header -->
+          <div class="engagement-header impact-header" data-engage-animate="fade-up" data-impact-animate="fade-up">
+            <h2 class="engagement-title impact-title">Notre Engagement</h2>
+            <p class="engagement-subtitle impact-subtitle">Excellence, Innovation &amp; Responsabilité au cœur de notre ADN</p>
+            <div class="green-divider"></div>
+          </div>
+          <!-- Alternating Content Blocks -->
+          <div class="content-blocks">
+            <!-- Block 1: Excellence & Innovation -->
+            <article class="content-block block-left" data-engage-animate="slide-right" data-engage-delay="100">
+              <div class="content-text">
+                <h3 class="block-title" data-text-animate>Excellence &amp; Innovation</h3>
+                <div class="block-description" data-text-animate>
+                  <p>Depuis plus de 15 ans, Alliance Synergie Santé repousse les limites de l'innovation en dermo-cosmétique. Notre laboratoire de R&amp;D développe des formules révolutionnaires, certifiées et testées dermatologiquement, pour offrir des solutions adaptées à tous les types de peau.</p>
+                  <p>Chaque produit est le fruit d'années de recherche et d'une expertise scientifique pointue.</p>
+                </div>
+                <div class="block-badge">Innovation Continue</div>
+              </div>
+              <div class="content-image">
+                <div class="image-blob-mask">
+                  <img src="images/Excellence-Innovation.png" alt="Excellence et Innovation" loading="lazy">
+                </div>
+              </div>
+            </article>
+            <!-- Block 2: Qualité Certifiée -->
+            <article class="content-block block-right" data-engage-animate="slide-left" data-engage-delay="200">
+              <div class="content-image">
+                <div class="image-blob-mask">
+                  <img src="images/Qualite-Certifiee.png" alt="Qualité Certifiée" loading="lazy">
+                </div>
+              </div>
+              <div class="content-text">
+                <h3 class="block-title" data-text-animate>Qualité Certifiée</h3>
+                <div class="block-description" data-text-animate>
+                  <p>Nos standards de qualité sont parmi les plus élevés de l'industrie. Certifications ISO, tests cliniques rigoureux, traçabilité complète des ingrédients : nous ne laissons rien au hasard.</p>
+                  <p>De la conception à la distribution en para-pharmacie ou pharmacie, chaque étape est contrôlée pour garantir l'efficacité et la sécurité de nos produits.</p>
+                </div>
+                <div class="block-badge">Standards Élevés</div>
+              </div>
+            </article>
+            <!-- Block 3: Engagement Responsable -->
+            <article class="content-block block-left" data-engage-animate="slide-right" data-engage-delay="300">
+              <div class="content-text">
+                <h3 class="block-title" data-text-animate>Engagement Responsable</h3>
+                <div class="block-description" data-text-animate>
+                  <p>La durabilité est au cœur de notre démarche. Ingrédients d'origine éthique, packaging éco-conçu, réduction de notre empreinte carbone : nous agissons concrètement pour préserver notre planète.</p>
+                  <p>Notre engagement social se traduit également par des partenariats avec des associations et des programmes d'inclusion.</p>
+                </div>
+                <div class="block-badge">Développement Durable</div>
+              </div>
+              <div class="content-image">
+                <div class="image-blob-mask">
+                  <img src="images/Engagement-Responsable.png" alt="Engagement Responsable" loading="lazy">
+                </div>
+              </div>
+            </article>
+            <!-- Block 4: Accompagnement Personnalisé -->
+            <article class="content-block block-right" data-engage-animate="slide-left" data-engage-delay="400">
+              <div class="content-image">
+                <div class="image-blob-mask">
+                  <img src="images/Accompagnement-Personnalise.png" alt="Accompagnement Personnalisé" loading="lazy">
+                </div>
+              </div>
+              <div class="content-text">
+                <h3 class="block-title" data-text-animate>Accompagnement Personnalisé</h3>
+                <div class="block-description" data-text-animate>
+                  <p>Chaque peau est unique. C'est pourquoi nous proposons un accompagnement sur-mesure : diagnostic personnalisé, conseils d'experts, suivi individuel et formations continues pour les professionnels de santé.</p>
+                  <p>Notre équipe d'experts est à votre écoute pour créer des solutions adaptées à vos besoins spécifiques.</p>
+                </div>
+                <div class="block-badge">Suivi Personnalisé</div>
+              </div>
+            </article>
+          </div>
+        </section>
+        <!-- ========================================           SECTION : NOTRE IMPACT NATUREL - SIMPLIFIED VERSION           ======================================== -->
+        <section id="impact-naturel" class="impact-section">
+          <!-- Section Header -->
+          <div class="impact-header" data-impact-animate="fade-up">
+            <h2 class="impact-title">Notre Impact Naturel</h2>
+            <p class="impact-subtitle">Des solutions saines pour votre bien-être, en harmonie avec la nature</p>
+            <div class="green-divider"></div>
+          </div>
+          <!-- Grid Container -->
+          <div class="impact-grid-container" data-impact-animate="scale-up" data-impact-delay="200">
+            <!-- Card 1 -->
+            <article class="impact-card" data-impact-animate="fade-in" data-impact-delay="400">
+              <div class="card-glow"></div>
+              <div class="card-content">
+                <div class="card-icon">🌿</div>
+                <h3 class="card-title">Ingrédients Naturels</h3>
+                <p class="card-description">Nous sélectionnons rigoureusement des ingrédients d'origine naturelle, issus de l'agriculture biologique et du commerce équitable. Chaque composant est tracé et certifié pour garantir pureté et efficacité.</p>
+                <div class="card-stat">
+                  <span class="stat-value" data-green-count="95">0</span>
+                  <span class="stat-unit">%</span>
+                  <span class="stat-label">Naturel</span>
+                </div>
+              </div>
+            </article>
+            <!-- Card 2 -->
+            <article class="impact-card" data-impact-animate="fade-in" data-impact-delay="500">
+              <div class="card-glow"></div>
+              <div class="card-content">
+                <div class="card-icon">🍃</div>
+                <h3 class="card-title">Engagement Écologique</h3>
+                <p class="card-description">Notre démarche environnementale va au-delà des produits : emballages recyclables, réduction des émissions carbone, partenariats avec des initiatives de reforestation. La planète est au cœur de chaque décision.</p>
+                <div class="card-stat">
+                  <span class="stat-value" data-green-count="100">0</span>
+                  <span class="stat-unit">%</span>
+                  <span class="stat-label">Éco-conçu</span>
+                </div>
+              </div>
+            </article>
+            <!-- Card 3 -->
+            <article class="impact-card" data-impact-animate="fade-in" data-impact-delay="600">
+              <div class="card-glow"></div>
+              <div class="card-content">
+                <div class="card-icon">✓</div>
+                <h3 class="card-title">Certifications Bio</h3>
+                <p class="card-description">Labels Ecocert, Cosmébio, Nature &amp; Progrès : nos certifications attestent de notre engagement envers des standards de qualité biologique rigoureux. Transparence et traçabilité à chaque étape.</p>
+                <div class="card-stat">
+                  <span class="stat-value" data-green-count="15">0</span>
+                  <span class="stat-unit">+</span>
+                  <span class="stat-label">Certifications</span>
+                </div>
+              </div>
+            </article>
+            <!-- Card 4 -->
+            <article class="impact-card" data-impact-animate="fade-in" data-impact-delay="700">
+              <div class="card-glow"></div>
+              <div class="card-content">
+                <div class="card-icon">💚</div>
+                <h3 class="card-title">Bien-être Holistique</h3>
+                <p class="card-description">Au-delà de la beauté, nous cultivons une approche globale du bien-être : santé de la peau, équilibre émotionnel, respect du vivant. Des produits qui prennent soin de vous et de l'environnement.</p>
+                <div class="card-stat">
+                  <span class="stat-value" data-green-count="98">0</span>
+                  <span class="stat-unit">%</span>
+                  <span class="stat-label">Satisfaction</span>
+                </div>
+              </div>
+            </article>
+            <!-- Card 5 -->
+            <article class="impact-card" data-impact-animate="fade-in" data-impact-delay="800">
+              <div class="card-glow"></div>
+              <div class="card-content">
+                <div class="card-icon">🌱</div>
+                <h3 class="card-title">Innovation Verte</h3>
+                <p class="card-description">Nos laboratoires développent des formules révolutionnaires alliant biotechnologie et savoir-faire traditionnel. L'innovation au service d'une beauté responsable et efficace.</p>
+                <div class="card-stat">
+                  <span class="stat-value" data-green-count="15">0</span>
+                  <span class="stat-unit">+</span>
+                  <span class="stat-label">Années R&amp;D</span>
+                </div>
+              </div>
+            </article>
+            <!-- Card 6 -->
+            <article class="impact-card" data-impact-animate="fade-in" data-impact-delay="900">
+              <div class="card-glow"></div>
+              <div class="card-content">
+                <div class="card-icon">🌍</div>
+                <h3 class="card-title">Impact Social</h3>
+                <p class="card-description">Nous soutenons des communautés locales, créons des emplois éthiques et investissons dans l'éducation. Chaque achat contribue à un monde plus juste et durable.</p>
+                <div class="card-stat">
+                  <span class="stat-value" data-green-count="50">0</span>
+                  <span class="stat-unit">+</span>
+                  <span class="stat-label">Partenariats</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </section>
+      <!-- PARTENAIRES -->
+      <section class="section" id="partenaires">
+        <div class="impact-header" data-impact-animate="fade-up">
+          <h2 class="section__title impact-title">Nos Partenaires</h2>
+          <div class="green-divider"></div>
+        </div>
+        <div class="logos">
+          <div class="logos__grid" id="logoGrid">
+            <div class="logo-tile logo-tile--featured">
+              <img src="images/11.png" alt="DCAP" loading="lazy" />
+              <div class="logo-caption">Soins capillaires</div>
+            </div>
+            <div class="logo-tile logo-tile--featured">
+              <img src="images/1.png" alt="D-White" loading="lazy" />
+              <div class="logo-caption">Soins Dermo-cosmétiques</div>
+            </div>
+            <div class="logo-tile">
+              <img src="images/10.png" alt="Sensilis" loading="lazy" />
+              <div class="logo-caption">Soins Dermo-cosmétiques</div>
+            </div>
+            <div class="logo-tile">
+              <img src="images/4.png" alt="Cumlaude Lab" loading="lazy" />
+              <div class="logo-caption">Santé gynécologique</div>
+            </div>
+            <div class="logo-tile">
+              <img src="images/5.png" alt="Castéra" loading="lazy" />
+              <div class="logo-caption">Gamme bébé</div>
+            </div>
+            <div class="logo-tile">
+              <img src="images/2.png" alt="Buccotherm" loading="lazy" />
+              <div class="logo-caption">Soins Buccodentaires</div>
+            </div>
+            <div class="logo-tile">
+              <img src="images/9.png" alt="Babé" loading="lazy" />
+              <div class="logo-caption">Gamme bébé</div>
+            </div>
+            <div class="logo-tile">
+              <img src="images/6.png" alt="Florame" loading="lazy" />
+              <div class="logo-caption">Gamme Bio Homme</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- KPI -->
+      <section class="section" id="chiffres">
+        <div class="impact-header" data-impact-animate="fade-up">
+          <h2 class="section__title impact-title">Chiffres clés</h2>
+          <div class="green-divider"></div>
+        </div>
+        <div class="kpi">
+          <div class="kpi__card">
+            <div class="kpi__value" data-target="15" data-prefix="+">+0</div>
+            <div>Années d'expérience</div>
+          </div>
+          <div class="kpi__card">
+            <div class="kpi__value" data-target="54" data-prefix="+">+0</div>
+            <div>Produits certifiés</div>
+          </div>
+          <div class="kpi__card">
+            <div class="kpi__value" data-target="230" data-prefix="+">+0</div>
+            <div>Partenaires nationaux</div>
+          </div>
+          <div class="kpi__card">
+            <div class="kpi__value" data-target="10754" data-prefix="+">+0</div>
+            <div>Clients satisfaits</div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- ===== Footer sophistiqué vert/noir ===== -->
+    <footer class="footer-greenblack" role="contentinfo">
+      <!-- Sprite SVG (icônes réelles) -->
+      <svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+        <defs>
+          <!-- LinkedIn -->
+          <symbol id="i-linkedin" viewBox="0 0 24 24">
+            <path d="M20.45 20.45h-3.56v-5.6c0-1.34-.02-3.07-1.87-3.07-1.88 0-2.17 1.47-2.17 2.98v5.69H9.29V9.75h3.41v1.46h.05c.48-.9 1.66-1.85 3.41-1.85 3.65 0 4.33 2.4 4.33 5.52v5.57zM6.16 8.29a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM4.38 20.45h3.56V9.75H4.38v10.7zM22.23 0H1.77C.79 0 0 .79 0 1.77v20.46C0 23.21.79 24 1.77 24h20.46C23.21 24 24 23.21 24 22.23V1.77C24 .79 23.21 0 22.23 0z" />
+          </symbol>
+          <!-- Facebook -->
+          <symbol id="i-facebook" viewBox="0 0 24 24">
+            <path d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.35C0 23.407.593 24 1.325 24H12.82v-9.294H9.692V11.01h3.127V8.414c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.794.716-1.794 1.764v2.313h3.587l-.467 3.696h-3.12V24h6.116C23.407 24 24 23.407 24 22.675V1.325C24 .593 23.407 0 22.675 0z" />
+          </symbol>
+          <!-- Instagram -->
+          <symbol id="i-instagram" viewBox="0 0 24 24">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.17.056 1.97.24 2.427.401a4.9 4.9 0 0 1 1.77 1.153 4.9 4.9 0 0 1 1.153 1.77c.161.457.345 1.257.401 2.427.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.056 1.17-.24 1.97-.401 2.427a4.9 4.9 0 0 1-1.153 1.77 4.9 4.9 0 0 1-1.77 1.153c-.457.161-1.257.345-2.427.401-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.056-1.97-.24-2.427-.401a4.9 4.9 0 0 1-1.77-1.153 4.9 4.9 0 0 1-1.153-1.77c-.161-.457-.345-1.257-.401-2.427C2.175 15.584 2.163 15.204 2.163 12s.012-3.584.07-4.85c.056-1.17.24-1.97.401-2.427a4.9 4.9 0 0 1 1.153-1.77A4.9 4.9 0 0 1 5.557 1.73c.457-.161 1.257-.345 2.427-.401C9.25 1.27 9.63 1.163 12 1.163zM12 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm7.2-1.443a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88z" />
+          </symbol>
+          <!-- YouTube -->
+          <symbol id="i-youtube" viewBox="0 0 24 24">
+            <path d="M23.5 6.2a3.06 3.06 0 0 0-2.16-2.16C19.48 3.5 12 3.5 12 3.5s-7.48 0-9.34.54A3.06 3.06 0 0 0 .5 6.2 32.6 32.6 0 0 0 0 12a32.6 32.6 0 0 0 .5 5.8 3.06 3.06 0 0 0 2.16 2.16C4.52 20.5 12 20.5 12 20.5s7.48 0 9.34-.54a3.06 3.06 0 0 0 2.16-2.16A32.6 32.6 0 0 0 24 12a32.6 32.6 0 0 0-.5-5.8zM9.75 15.02V8.98L15.5 12l-5.75 3.02z" />
+          </symbol>
+          <!-- X -->
+          <symbol id="i-x" viewBox="0 0 24 24">
+            <path d="M18.244 2H21l-6.5 7.43L22.5 22h-6.9l-4.8-6.26L4.4 22H2l7-8L1.8 2h7l4.2 5.54L18.244 2zM17 20h2.1L8.1 4H6z" />
+          </symbol>
+          <!-- TikTok -->
+          <symbol id="i-tiktok" viewBox="0 0 24 24">
+            <path d="M14.5 3.1v6.4a4.9 4.9 0 1 1-4 4.8V12a2.7 2.7 0 1 0 2.7 2.7V3.1h1.3z" />
+            <path d="M15.2 3.3a6.9 6.9 0 0 0 5.2 2.1v2.3a8.9 8.9 0 0 1-5.2-1.8V3.3z" />
+          </symbol>
+        </defs>
+      </svg>
+      <div class="footer-container">
+        <!-- Haut : logo + nom + navigation -->
+        <div class="footer-top">
+          <div class="footer-brand">
+            <img src="images/logo principal.png" alt="ALLIANCE SYNERGIE SANTÉ" class="brand-logo">
+            <span class="brand-name">ALLIANCE SYNERGIE SANTÉ</span>
+          </div>
+          <nav class="footer-links" aria-label="Liens du site">
+            <a href="accueil.html">Accueil</a>
+            <a href="pages/chaine-de-valeurs.html">Chaîne de valeurs</a>
+            <a href="pages/marque-propre-A2S.html">Marques propre A2S</a>
+            <a href="pages/marque-partenaire.html">Marques partenaires</a>
+            <a href="pages/mediatheque.html">Médiathèque</a>
+            <a href="pages/ambassadeur.html">Influenceurs</a>
+            <a href="pages/espace-pro.html">Espace Pro</a>
+            <a href="pages/carrieres.html">Carrières</a>
+            <a href="pages/contact.html">Contact</a>
+          </nav>
+        </div>
+        <!-- Bas : Réseaux + Copyright -->
+        <div class="footer-bottom">
+          <nav class="social" aria-label="Réseaux sociaux">
+            <a href="https://www.linkedin.com/company/a2smaroc" aria-label="LinkedIn">
+              <svg>
+                <use href="#i-linkedin" />
+              </svg>
+            </a>
+            <a href="https://www.facebook.com/alliancesynergiesanteofficiel" aria-label="Facebook">
+              <svg>
+                <use href="#i-facebook" />
+              </svg>
+            </a>
+            <a href="https://www.instagram.com/a2s.maroc.officiel" aria-label="Instagram">
+              <svg>
+                <use href="#i-instagram" />
+              </svg>
+            </a>
+            <a href="https://www.youtube.com/c/AllianceSynergieSant%C3%A9" aria-label="YouTube">
+              <svg>
+                <use href="#i-youtube" />
+              </svg>
+            </a>
+            <a href="https://x.com/A2sSante" aria-label="X (Twitter)">
+              <svg>
+                <use href="#i-x" />
+              </svg>
+            </a>
+            <a href="https://www.tiktok.com/@a2s.officiel" aria-label="TikTok">
+              <svg>
+                <use href="#i-tiktok" />
+              </svg>
+            </a>
+          </nav>
+          <small>© <span id="year"></span> ALLIANCE SYNERGIE SANTÉ — Tous droits réservés. </small>
+        </div>
+      </div>
+    </footer>
+    <!-- ============================ SCRIPTS ============================ -->
+    <!-- ====== NOTRE UNIVERS – JS scoppé ====== -->
+     <script>
+        // ================================================
+// EXTRACTED AND OPTIMIZED JAVASCRIPT FROM INDEX.HTML
+// ================================================
+
+
+// ========== SCRIPT BLOCK 3 ==========
+// ========================================
+  // NOTRE IMPACT NATUREL - SIMPLIFIED VERSION
+  // ========================================
+
+  (function () {
+    'use strict';
+
+    // ========================================
+    // INTERSECTION OBSERVER FOR IMPACT SECTION
+    // ========================================
+
+    const observeImpactElements = () => {
+      const elements = document.querySelectorAll('[data-impact-animate]');
+      
+      if (!elements.length) return;
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              const delay = entry.target.dataset.impactDelay || 0;
+              setTimeout(() => {
+                entry.target.classList.add('animate-in');
+                
+                // Trigger green counter animations if this is an impact card
+                if (entry.target.classList.contains('impact-card')) {
+                  animateGreenCounter(entry.target);
+                }
+              }, parseInt(delay));
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        {
+          threshold: 0.15,
+          rootMargin: '0px 0px -50px 0px',
+        }
+      );
+
+      elements.forEach((el) => observer.observe(el));
+    };
+
+    // ========================================
+    // ANIMATED GREEN COUNTER
+    // ========================================
+
+    const animateGreenCounter = (card) => {
+      const statValue = card.querySelector('.stat-value[data-green-count]');
+      if (!statValue) return;
+      
+      const target = parseInt(statValue.dataset.greenCount || 0);
+      const duration = 2000; // 2 seconds
+      const startTime = performance.now();
+      const startValue = 0;
+      
+      const updateCounter = (currentTime) => {
+        const elapsed = currentTime - startTime;
+        const progress = Math.min(elapsed / duration, 1);
+        
+        // Easing function: ease-out cubic
+        const easeOut = 1 - Math.pow(1 - progress, 3);
+        const currentValue = Math.floor(startValue + (target - startValue) * easeOut);
+        
+        statValue.textContent = currentValue;
+        
+        if (progress < 1) {
+          requestAnimationFrame(updateCounter);
+        } else {
+          statValue.textContent = target;
+        }
+      };
+      
+      requestAnimationFrame(updateCounter);
+    };
+
+    // ========================================
+    // CARD HOVER EFFECTS
+    // ========================================
+
+    const initCardEffects = () => {
+      const cards = document.querySelectorAll('.impact-card');
+      
+      cards.forEach((card) => {
+        // Add click effect
+        card.addEventListener('click', (e) => {
+          createGreenRipple(e, card);
+        });
+        
+        // Keyboard accessibility
+        card.setAttribute('tabindex', '0');
+        card.setAttribute('role', 'article');
+        
+        card.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            card.click();
+          }
+        });
+      });
+    };
+
+    // ========================================
+    // GREEN RIPPLE EFFECT
+    // ========================================
+
+    const createGreenRipple = (event, element) => {
+      const ripple = document.createElement('span');
+      const rect = element.getBoundingClientRect();
+      const size = Math.max(rect.width, rect.height);
+      const x = event.clientX - rect.left - size / 2;
+      const y = event.clientY - rect.top - size / 2;
+
+      ripple.style.width = ripple.style.height = `${size}px`;
+      ripple.style.left = `${x}px`;
+      ripple.style.top = `${y}px`;
+      ripple.style.position = 'absolute';
+      ripple.style.borderRadius = '50%';
+      ripple.style.background = 'rgba(16, 185, 129, 0.5)';
+      ripple.style.transform = 'scale(0)';
+      ripple.style.animation = 'greenRipple 600ms ease-out';
+      ripple.style.pointerEvents = 'none';
+      ripple.style.zIndex = '100';
+
+      element.style.position = 'relative';
+      element.style.overflow = 'hidden';
+      element.appendChild(ripple);
+
+      setTimeout(() => {
+        ripple.remove();
+      }, 600);
+    };
+
+    // Add green ripple animation to document
+    const rippleStyle = document.createElement('style');
+    rippleStyle.textContent = `
+      @keyframes greenRipple {
+        to {
+          transform: scale(4);
+          opacity: 0;
+        }
+      }
+    `;
+    document.head.appendChild(rippleStyle);
+
+    // ========================================
+    // INITIALIZATION
+    // ========================================
+
+    const initImpact = () => {
+      // Check if impact section exists
+      if (!document.querySelector('.impact-section')) {
+        return;
+      }
+      
+      // Initialize all impact features
+      observeImpactElements();
+      initCardEffects();
+      
+      console.log('✨ Notre Impact Naturel Section Initialized');
+    };
+
+    // Start when DOM is ready
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initImpact);
+    } else {
+      initImpact();
+    }
+  })();
+
+
+// ========== SCRIPT BLOCK 4 ==========
+// Navigation dropdown functionality
+    (function() {
+      const items = document.querySelectorAll('.nav__item');
+      items.forEach((li) => {
+        const btn = li.querySelector('button.nav__btn');
+        const drop = li.querySelector('.dropdown');
+        if (!btn || !drop) return;
+
+        let closeTO;
+        const open = () => { li.setAttribute('aria-expanded', 'true'); btn.setAttribute('aria-expanded', 'true'); };
+        const close = () => { li.setAttribute('aria-expanded', 'false'); btn.setAttribute('aria-expanded', 'false'); };
+
+        btn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          (li.getAttribute('aria-expanded') === 'true') ? close() : open();
+        });
+        li.addEventListener('mouseenter', open);
+        li.addEventListener('mouseleave', () => { closeTO = setTimeout(close, 80); });
+        drop.addEventListener('mouseenter', () => clearTimeout(closeTO));
+        document.addEventListener('click', (e) => { if (!li.contains(e.target)) close(); });
+        btn.addEventListener('keydown', (e) => { if (e.key === 'Escape') close(); });
+      });
+    })();
+
+    // Mobile panel functionality
+    (function() {
+      const burger = document.getElementById('burger');
+      const panel = document.getElementById('panel');
+      const sections = panel?.querySelectorAll('.panel__section');
+
+      function setOpen(open) {
+        if (!panel) return;
+        panel.hidden = !open;
+        panel.classList.toggle('panel--open', open);
+        burger?.setAttribute('aria-expanded', String(open));
+        document.body.style.overflow = open ? 'hidden' : '';
+      }
+
+      burger?.addEventListener('click', () => setOpen(!(panel?.classList.contains('panel--open'))));
+      document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && panel?.classList.contains('panel--open')) setOpen(false); });
+      panel?.addEventListener('click', (e) => { if (e.target === panel) setOpen(false); });
+
+      sections?.forEach(sec => {
+        const trigger = sec.querySelector('.panel__trigger');
+        trigger?.addEventListener('click', () => {
+          const open = sec.getAttribute('aria-expanded') === 'true';
+          sec.setAttribute('aria-expanded', String(!open));
+        });
+      });
+
+      panel?.querySelectorAll('a').forEach(a => a.addEventListener('click', () => setOpen(false)));
+    })();
+
+    // Update nav height CSS variable
+    (function() {
+      const upd = () => {
+        const nav = document.querySelector('.nav');
+        const h = nav ? nav.offsetHeight : 72;
+        document.documentElement.style.setProperty('--nav-h', h + 'px');
+      };
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', upd, { once: true });
+      } else {
+        upd();
+      }
+      window.addEventListener('resize', upd, { passive: true });
+      window.addEventListener('load', upd);
+    })();
+
+
+// ========== SCRIPT BLOCK 5 ==========
+// Pause 3D rings when tab is hidden for performance
+    const rings = document.querySelectorAll('.orbit__ring');
+    if(rings.length) {
+      document.addEventListener('visibilitychange', () => {
+        rings.forEach(ring => {
+          ring.style.animationPlayState = document.hidden ? 'paused' : 'running';
+        });
+      });
+    }
+
+    // Add interactive behavior to chips
+    document.querySelectorAll('.chip').forEach(chip => {
+      chip.addEventListener('click', function() {
+        // Add your custom behavior here
+        console.log('Clicked on:', this.textContent.trim());
+        
+        // Example: highlight the clicked chip
+        this.style.transform = this.style.transform + ' scale(1.2)';
+        setTimeout(() => {
+          this.style.transform = this.style.transform.replace(' scale(1.2)', '');
+        }, 500);
+      });
+    });
+
+
+// ========== SCRIPT BLOCK 6 ==========
+(function(){
+      const el = document.getElementById('year');
+      if (el) el.textContent = new Date().getFullYear();
+    })();
+
+
+// ========== SCRIPT BLOCK 7 ==========
+// ===================== THÈME AUTO AVEC CONVERSION DE FUSEAU =====================
+  (function(){
+    const root = document.documentElement;
+    const META_THEME = document.querySelector('meta[name="theme-color"]');
+
+    // Fuseau de référence pour la fenêtre 07:00–22:00 (modifiable via data-theme-tz sur <html>)
+    const BASE_TZ = root.getAttribute('data-theme-tz') || 'Africa/Casablanca';
+    // Fenêtre de jour (heures incluses/exclues dans le fuseau de référence)
+    const DAY_START = 7;   // 07:00
+    const NIGHT_START = 22; // 22:00
+
+    function setTheme(mode){
+      // Dark mode disabled: always enforce light
+      root.setAttribute('data-theme', 'light');
+      if (META_THEME) META_THEME.setAttribute('content', '#2f6b2f');
+    }
+
+    // Récupère l'heure courante (0–23) **dans un fuseau donné**
+    function getHourInTZ(tz, date = new Date()){
+      // format "HH" en 24h dans le tz cible
+      const fmt = new Intl.DateTimeFormat('en-GB', { timeZone: tz, hour: '2-digit', hour12: false });
+      const h = fmt.format(date);
+      return Number(h); // 0..23
+    }
+
+    function applyThemeByTZ(){
+      const hourInBaseTZ = getHourInTZ(BASE_TZ);
+      const isDay = (hourInBaseTZ >= DAY_START && hourInBaseTZ < NIGHT_START);
+      setTheme(isDay ? 'light' : 'dark');
+    }
+
+    // Applique maintenant, puis vérifie régulièrement (chaque minute suffit et gère les changements d'heure)
+    applyThemeByTZ();
+
+    // Synchronise le premier tick sur la minute suivante pour lisser la mise à jour
+    (function scheduleMinuteAligned(){
+      const now = new Date();
+      const delayToNextMinute = (60 - now.getSeconds()) * 1000 - now.getMilliseconds() + 50;
+      setTimeout(()=>{
+        applyThemeByTZ();
+        setInterval(applyThemeByTZ, 60 * 1000); // toutes les minutes
+      }, Math.max(250, delayToNextMinute));
+    })();
+
+    // Réapplique quand l'onglet redevient visible
+    document.addEventListener('visibilitychange', ()=> { if(!document.hidden){ applyThemeByTZ(); } });
+
+    // Expose en console pour debug
+    console.debug('[A2S] Thème auto avec fuseau:', { BASE_TZ, DAY_START, NIGHT_START });
+  })();
+
+  // ===================== SCROLL REVEAL =====================
+  class ScrollAnimator {
+    constructor(){
+      if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      this.io = new IntersectionObserver((entries)=>{
+        entries.forEach(e=>{
+          if(e.isIntersecting){
+            e.target.classList.add('fade-in-up');
+            this.io.unobserve(e.target);
+          }
+        });
+      },{ threshold: 0.12, rootMargin: '0px 0px -50px 0px' });
+      // .card-img retiré (Galerie supprimée)
+      document.querySelectorAll('.kpi__card, .section__title').forEach(el => this.io.observe(el));
+    }
+  }
+
+  // ===================== COMPTEURS (KPI) =====================
+  class CounterAnimator {
+    constructor(){
+      const io = new IntersectionObserver((entries)=>{
+        entries.forEach(entry=>{
+          if(entry.isIntersecting){
+            this.animate(entry.target);
+            io.unobserve(entry.target);
+          }
+        });
+      },{threshold:.5});
+      document.querySelectorAll('.kpi__value[data-target]').forEach(el => io.observe(el));
+    }
+    animate(el){
+      const target = parseInt(el.getAttribute('data-target'),10);
+      const prefix = el.getAttribute('data-prefix') || '';
+      if (matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        el.textContent = prefix + target.toLocaleString('fr-FR');
+        return;
+      }
+      const duration = Math.min(2000, Math.max(800, target > 5000 ? 1500 : 1000));
+      let start = 0;
+      const inc = target / (duration/16);
+      (function step(){
+        start += inc;
+        if(start < target){
+          el.textContent = prefix + Math.floor(start).toLocaleString('fr-FR');
+          requestAnimationFrame(step);
+        } else {
+          el.textContent = prefix + target.toLocaleString('fr-FR');
+        }
+      })();
+    }
+  }
+
+  // ===================== AIDES PERFORMANCE =====================
+  function shuffleLogos(){
+    const grid = document.getElementById('logoGrid');
+    if(!grid) return;
+    const featured = Array.from(grid.querySelectorAll('.logo-tile--featured'));
+    const others = Array.from(grid.querySelectorAll('.logo-tile:not(.logo-tile--featured)'));
+    others.sort(()=> Math.random() - .5).forEach(c => grid.appendChild(c));
+    // Ensure featured stay at the top in their original order
+    featured.slice().reverse().forEach(c => grid.insertBefore(c, grid.firstChild));
+  }
+  
+
+  // ===================== INIT GLOBAL =====================
+  document.addEventListener('DOMContentLoaded', ()=>{
+    new ScrollAnimator();
+    new CounterAnimator();
+    // new Lightbox(); // supprimé
+    shuffleLogos();
+    
+  });
+
+  // Journalisation d'erreurs non bloquantes
+  window.addEventListener('error', (e)=> console.error('Erreur JavaScript:', e.error || e.message));
+
+  // ===================== NAVBAR — Desktop/Mobile =====================
+
+
+// ========== SCRIPT BLOCK 8 ==========
+/* ====== NOTRE UNIVERS – JS scoppé ====== */
+  (function () {
+    'use strict';
+
+    const debounce = (func, wait) => {
+      let t; return (...args) => { clearTimeout(t); t = setTimeout(() => func(...args), wait); };
+    };
+
+    // Initialise une instance dans un conteneur .nu-vars
+    const initUniverse = (root) => {
+      if (!root) return;
+
+      // ----- Scroll reveal (data-animate) -----
+      const observeElements = () => {
+        const elements = root.querySelectorAll('[data-animate]');
+        if (!elements.length) return;
+
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              const delay = entry.target.dataset.delay || 0;
+              setTimeout(() => entry.target.classList.add('animate-in'), parseInt(delay));
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+        elements.forEach((el) => observer.observe(el));
+      };
+
+      // ----- Images : état "loaded" pour masquer le shimmer -----
+      const handleImageLoading = () => {
+        root.querySelectorAll('.gallery-img').forEach((img) => {
+          if (img.complete) img.classList.add('loaded');
+          else img.addEventListener('load', () => img.classList.add('loaded'), { once: true });
+        });
+      };
+
+      // ----- Ripple -----
+      const createRipple = (event, container) => {
+        const ripple = document.createElement('span');
+        const rect = container.getBoundingClientRect();
+               const size = Math.max(rect.width, rect.height);
+        const x = event.clientX - rect.left - size / 2 + window.scrollX;
+        const y = event.clientY - rect.top - size / 2 + window.scrollY;
+        ripple.style.width = ripple.style.height = `${size}px`;
+        ripple.style.left = `${x}px`;
+        ripple.style.top = `${y}px`;
+        ripple.className = 'ripple';
+        const holder = container.querySelector('.ripple-container');
+        if (!holder) return;
+        holder.appendChild(ripple);
+        setTimeout(() => ripple.remove(), 600);
+      };
+
+      // ----- Lightbox -----
+      const Lightbox = function () {
+        this.overlay = root.querySelector('#nu-lightbox');
+        this.img = this.overlay?.querySelector('.lightbox-img');
+        this.closeBtn = this.overlay?.querySelector('.lightbox-close');
+        this.textEl = this.overlay?.querySelector('.lightbox-text');
+        this.typingTimer = null; this.typingSpeed = 45;
+        this.init();
+      };
+      Lightbox.prototype.init = function () {
+        this.closeBtn?.addEventListener('click', () => this.close());
+        this.overlay?.addEventListener('click', (e) => {
+          if (e.target === this.overlay || e.target.classList.contains('lightbox-backdrop')) this.close();
+        });
+        document.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape' && this.overlay?.classList.contains('open')) this.close();
+        });
+      };
+      Lightbox.prototype.typewriter = function (text) {
+        if (!this.textEl) return;
+        clearInterval(this.typingTimer);
+        this.textEl.textContent = '';
+        let i = 0;
+        this.typingTimer = setInterval(() => {
+          if (i < text.length) { this.textEl.textContent += text[i++]; }
+          else { clearInterval(this.typingTimer); }
+        }, this.typingSpeed);
+      };
+      Lightbox.prototype.open = function (src, caption) {
+        if (!this.overlay || !this.img) return;
+        this.img.classList.remove('animate-in');
+        this.img.src = src;
+        this.overlay.classList.add('open');
+        this.overlay.setAttribute('aria-hidden', 'false');
+        requestAnimationFrame(() => requestAnimationFrame(() => this.img.classList.add('animate-in')));
+        if (caption) this.typewriter(caption);
+        this.closeBtn?.focus();
+        document.body.classList.add('nu-lightbox-open');
+      };
+      Lightbox.prototype.close = function () {
+        if (!this.overlay) return;
+        this.overlay.classList.remove('open');
+        this.overlay.setAttribute('aria-hidden', 'true');
+        this.img?.classList.remove('animate-in');
+        setTimeout(() => {
+          if (this.img) this.img.src = '';
+          if (this.textEl) this.textEl.textContent = '';
+        }, 250);
+        clearInterval(this.typingTimer);
+        document.body.classList.remove('nu-lightbox-open');
+      };
+
+      // ----- Cartes (clic + accessibilité) -----
+      const initGalleryCards = (lightbox) => {
+        root.querySelectorAll('.gallery-item').forEach((card) => {
+          const cardInner = card.querySelector('.card-inner');
+          const img = card.querySelector('.gallery-img');
+          const descriptionEl = card.querySelector('.card-description');
+          if (!cardInner || !img) return;
+
+          const handleClick = (e) => {
+            e.preventDefault();
+            createRipple(e, cardInner);
+            const caption = descriptionEl?.dataset?.lightboxText || img.alt || '';
+            setTimeout(() => lightbox.open(img.src, caption), 100);
+          };
+
+          cardInner.addEventListener('click', handleClick);
+          cardInner.setAttribute('tabindex', '0');
+          cardInner.setAttribute('role', 'button');
+          cardInner.setAttribute('aria-label', `Voir détails: ${img.alt}`);
+          cardInner.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); handleClick(e); }
+          });
+        });
+      };
+
+      // ----- Init -----
+      observeElements();
+      handleImageLoading();
+      const lightbox = new Lightbox();
+      initGalleryCards(lightbox);
+
+      // Annonce SR
+      const sr = document.createElement('div');
+      sr.setAttribute('role', 'status'); sr.setAttribute('aria-live', 'polite');
+      sr.className = 'sr-only';
+      sr.textContent = 'La galerie Notre Univers est chargée et prête à être explorée';
+      root.appendChild(sr);
+
+      // Petite trace console
+      // console.log('✨ Notre Univers initialisé');
+    };
+
+    // Autoinit pour chaque instance .nu-vars
+    const initAll = () => document.querySelectorAll('.nu-vars[data-nu]').forEach(initUniverse);
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initAll);
+    else initAll();
+  })();
+
+
+// ========== SCRIPT BLOCK 9 ==========
+// ========================================
+        // NOTRE ENGAGEMENT SECTION - INTERACTIVE ANIMATIONS
+        // ========================================
+
+        (function () {
+            'use strict';
+
+            // ========================================
+            // INTERSECTION OBSERVER FOR ENGAGEMENT SECTION
+            // ========================================
+
+            const observeEngagementElements = () => {
+                const elements = document.querySelectorAll('[data-engage-animate]');
+                
+                if (!elements.length) return;
+
+                const observer = new IntersectionObserver(
+                    (entries) => {
+                        entries.forEach((entry) => {
+                            if (entry.isIntersecting) {
+                                const delay = entry.target.dataset.engageDelay || 0;
+                                setTimeout(() => {
+                                    entry.target.classList.add('animate-in');
+                                }, parseInt(delay));
+                                observer.unobserve(entry.target);
+                            }
+                        });
+                    },
+                    {
+                        threshold: 0.15,
+                        rootMargin: '0px 0px -80px 0px',
+                    }
+                );
+
+                elements.forEach((el) => observer.observe(el));
+            };
+
+            // ========================================
+            // TEXT REVEAL ANIMATION
+            // ========================================
+
+            const initTextReveal = () => {
+                const textElements = document.querySelectorAll('[data-text-animate]');
+                
+                if (!textElements.length) return;
+                
+                const observer = new IntersectionObserver(
+                    (entries) => {
+                        entries.forEach((entry) => {
+                            if (entry.isIntersecting) {
+                                const element = entry.target;
+                                
+                                // Add staggered fade-in for paragraphs
+                                if (element.classList.contains('block-description')) {
+                                    const paragraphs = element.querySelectorAll('p');
+                                    paragraphs.forEach((p, index) => {
+                                        p.style.opacity = '0';
+                                        p.style.transform = 'translateY(20px)';
+                                        p.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                                        
+                                        setTimeout(() => {
+                                            p.style.opacity = '1';
+                                            p.style.transform = 'translateY(0)';
+                                        }, index * 150);
+                                    });
+                                }
+                                
+                                // Add underline animation for titles
+                                if (element.classList.contains('block-title')) {
+                                    element.style.opacity = '0';
+                                    element.style.transform = 'translateX(-20px)';
+                                    element.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
+                                    
+                                    setTimeout(() => {
+                                        element.style.opacity = '1';
+                                        element.style.transform = 'translateX(0)';
+                                    }, 100);
+                                }
+                                
+                                observer.unobserve(element);
+                            }
+                        });
+                    },
+                    {
+                        threshold: 0.2,
+                        rootMargin: '0px 0px -50px 0px',
+                    }
+                );
+                
+                textElements.forEach((el) => observer.observe(el));
+            };
+
+            // ========================================
+            // INITIALIZATION
+            // ========================================
+
+            const initEngagement = () => {
+                // Check if engagement section exists
+                if (!document.querySelector('.engagement-section')) {
+                    return;
+                }
+                
+                // Initialize all engagement features
+                observeEngagementElements();
+                initTextReveal();
+                
+                console.log('✨ Notre Engagement Section Initialized');
+            };
+
+            // Start when DOM is ready
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', initEngagement);
+            } else {
+                initEngagement();
+            }
+        })();
+
+
+     </script>
+  </body>
+</html>
